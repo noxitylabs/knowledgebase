@@ -236,7 +236,67 @@
      },
 
 
-
+     
+     {
+      "group":"cPanel Control Panel",
+      "pages":[
+         "web-hosting/overview",
+         {
+            "group":"File Management",
+            "icon":"tower-control",
+            "pages":[
+               {
+                  "group":"FTP & SFTP",
+                  "icon":"sliders-simple",
+                  "pages":[
+                     "virtual-servers/fusion/server-management/basic-actions/basic-actions-example"
+                  ]
+               },
+               {
+                  "group":"Backup Management",
+                  "icon":"disc-drive",
+                  "pages":[
+                     "virtual-servers/fusion/server-management/media-settings/media-settings-example",
+                     {
+                        "group":"JetBackup Panel",
+                        "icon":"clock-rotate-left",
+                        "pages":[
+                           "virtual-servers/fusion/server-management/backup-recovery-center/backup-recovery-center-example"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "group":"Sharing Portal",
+            "icon":"share",
+            "pages":[
+               "virtual-servers/fusion/sharing-portal/sharing-portal-example"
+            ]
+         },
+         {
+            "group":"Profile Management",
+            "icon":"user",
+            "pages":[
+               {
+                  "group":"SSH Keys",
+                  "icon":"key",
+                  "pages":[
+                     "virtual-servers/fusion/profile-management/security-center/security-center-example"
+                  ]
+               },
+               {
+                  "group":"Security Center",
+                  "icon":"shield-keyhole",
+                  "pages":[
+                     "virtual-servers/fusion/profile-management/ssh-keys/ssh-keys-example"
+                  ]
+               }
+            ]
+         }
+      ]
+   },
 
 
 
