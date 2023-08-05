@@ -75,5 +75,17 @@
     "github": "https://github.com/noxitylabs/",
     "instagram": "https://www.instagram.com/noxityio/",
     "linkedin": "https://www.linkedin.com/company/noxity"
-  }
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+},
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true,
+    "raiseIssue": true
+  },
+  "primaryTab": {
+    "name": "Home"
+}
 }
