@@ -51,7 +51,7 @@
   "anchors":[
      {
         "name":"Website",
-        "icon":"raygun",
+        "icon":"globe-pointer",
         "url":"https://help.noxity.io"
      },
      {
@@ -61,16 +61,16 @@
      },
      {
         "name":"Blog",
-        "icon":"newspaper",
+        "icon":"typewriter",
         "url":"https://blog.noxity.io"
      },
      {
         "name":"Status Page",
-        "icon":"signal",
+        "icon":"signal-bars",
         "url":"https://status.noxity.io"
      },
      {
-      "name":"Links Collection",
+      "name":"Linktree",
       "icon":"bullseye-pointer",
       "url":"https://tree.noxity.io"
      },
