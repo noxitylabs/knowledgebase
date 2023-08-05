@@ -24,28 +24,8 @@
   },
   "tabs": [
     {
-      "name": "Virtual Servers",
-      "url": "virtual-servers"
-    },
-    {
-      "name": "Web Hosting",
-      "url": "web-hosting"
-    },
-    {
-      "name": "Domains",
-      "url": "domains"
-    },
-    {
-      "name": "Members Area",
-      "url": "members"
-    },
-    {
-      "name": "How To Guides",
-      "url": "howto"
-    },
-    {
-      "name": "Developer Corner",
-      "url": "developers"
+      "name": "API Reference",
+      "url": "api-reference"
     }
   ],
   "anchors": [
