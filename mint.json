@@ -261,7 +261,7 @@
             {
                "group":"Email Management",
                "pages":[
-                  "virtual-servers/cpanel/email-management/email-management-example",
+                  "web-hosting/cpanel/email-management/email-management-example",
                   {
                      "group":"Mail Clients",
                      "pages":[
@@ -291,7 +291,7 @@
             {
                "group":"Database Management",
                "pages":[
-                  "virtual-servers/cpanel/database-management/database-management-example",
+                  "web-hosting/cpanel/database-management/database-management-example",
                   {
                      "group":"MySQL Wizards",
                      "pages":[
@@ -315,11 +315,11 @@
             {
                "group":"Domain Management",
                "pages":[
-                  "virtual-servers/cpanel/domain-management/domain-management-example",
+                  "web-hosting/cpanel/domain-management/domain-management-example",
                   {
                      "group":"DNS Management",
                      "pages":[
-                        "web-hosting/cpanel/dns-management/dns-management-example"
+                        "web-hosting/cpanel/dns/dns-example"
                      ]
                   },
                   {
@@ -333,7 +333,7 @@
             {
                "group":"Metrics & Analytics",
                "pages":[
-                  "virtual-servers/cpanel/metrics-analytics/metrics-analytics-example",
+                  "web-hosting/cpanel/metrics-analytics/metrics-analytics-example",
                   {
                      "group":"Awstats",
                      "pages":[
@@ -459,29 +459,29 @@
             {
                "group":"eCommerce Hosting",
                "pages":[
-                  "web-hosting/application-hosting/e-commerce/e-commerce-example",
+                  "web-hosting/application-hosting/ecommerce/ecommerce-example",
                   {
                      "group":"Magento",
                      "pages":[
-                        "web-hosting/application-hosting/e-commerce/magento/magento-example"
+                        "web-hosting/application-hosting/ecommerce/magento/magento-example"
                      ]
                   },
                   {
                      "group":"PrestaShop",
                      "pages":[
-                        "web-hosting/application-hosting/e-commerce/prestashop/prestashop-example"
+                        "web-hosting/application-hosting/ecommerce/prestashop/prestashop-example"
                      ]
                   },
                   {
                      "group":"OpenCart",
                      "pages":[
-                        "web-hosting/application-hosting/e-commerce/opencart/opencart-example"
+                        "web-hosting/application-hosting/ecommerce/opencart/opencart-example"
                      ]
                   },
                   {
                      "group":"WooCommerce",
                      "pages":[
-                        "web-hosting/application-hosting/e-commerce/woocommerce/woocommerce-example"
+                        "web-hosting/application-hosting/ecommerce/woocommerce/woocommerce-example"
                      ]
                   }
                ]
@@ -580,7 +580,7 @@
 
 
 
-      
+
       {
          "group":"Domains",
          "pages":[
