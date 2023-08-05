@@ -42,21 +42,20 @@ To get started message project leader on Discord to be added to the knowledgebas
 
 ---
 ## To Dos
+### In progress
+- Change background to something more dynamic
+- Find nice gradient for anchor icon links
+- Implement "raiseIssue" and "suggestEdit" buttons + setup GitHub to allow these requests
+- Fix purpleish glow on button hover and search popup. Replace it with Noxity red
+### Needs official implementation
+- Fix card links opening in a new tab
+- Add a "back to top" button
+- Add icons to "tabs" in the header if loaded from mobile (currently they all show the same icon)
+- Add crisp ive chat to the knowledgebase
+## Done
 - Add github link to the knolwedgebase in the header - DONE ✅
 - Open source the knowledgebase system - DONE ✅
 - Add icons to sidebar links - DONE ✅
-
-- Implement different "sidebarTitle" for each article
-- Implement "raiseIssue" and "suggestEdit" buttons + setup GitHub to allow these requests
-- Change background to something more dynamic
-- Fix purpleish glow on button hover and search popup. Replace it with Noxity red
-- Find nice gradient for anchor icon links
-- Fix card links opening in a new tab
-- Add a "back to top" button
-- Add live chat to the knowledgebase
-- Add icons to "tabs" in the header if loaded from mobile (currently they all show the same icon)
-- Add website & tiktok icon in the footer
-- Implement URL shortener for KB
 
 ---
 ## Ideas
