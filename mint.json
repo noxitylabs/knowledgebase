@@ -319,7 +319,7 @@
                   {
                      "group":"DNS Management",
                      "pages":[
-                        "web-hosting/cpanel/dns/dns-example"
+                        "web-hosting/cpanel/domain-management/dns/dns-example"
                      ]
                   },
                   {
@@ -347,15 +347,39 @@
                      ]
                   },
                   {
-                     "group":"Raw Access Logs",
+                     "group":"Logs",
                      "pages":[
-                        "web-hosting/cpanel/metrics-analytics/raw-access-logs/raw-access-logs-example"
-                     ]
-                  },
-                  {
-                     "group":"Error Logs",
-                     "pages":[
-                        "web-hosting/cpanel/metrics-analytics/error-logs/error-logs-example"
+                        "web-hosting/cpanel/metrics-analytics/logs/logs-example",
+                        {
+                           "group":"Resource Usage",
+                           "pages":[
+                              "web-hosting/cpanel/metrics-analytics/logs/resource-usage/resource-usage-example"
+                           ]
+                        },
+                        {
+                           "group":"Error Logs",
+                           "pages":[
+                              "web-hosting/cpanel/metrics-analytics/logs/errors/error-example"
+                           ]
+                        },
+                        {
+                           "group":"Visitors",
+                           "pages":[
+                              "web-hosting/cpanel/metrics-analytics/logs/visitors/visitors-example"
+                           ]
+                        },
+                        {
+                           "group":"Raw Access",
+                           "pages":[
+                              "web-hosting/cpanel/metrics-analytics//logs/bandwidth/bandwidth-example"
+                           ]
+                        },
+                        {
+                           "group":"Bandwidth",
+                           "pages":[
+                              "web-hosting/cpanel/metrics-analytics//logs/raw-access/raw-access-example"
+                           ]
+                        }
                      ]
                   }
                ]
