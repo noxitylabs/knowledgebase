@@ -5,7 +5,9 @@
      "dark":"/logo/light.png",
      "light":"/logo/dark.png"
   },
+
   "favicon":"/logo/favicon.png",
+
   "colors":{
      "primary":"#dd2249",
      "light":"#dd2249",
@@ -18,10 +20,34 @@
         "to":"#dd2249"
      }
   },
+
   "topbarCtaButton": {
     "type": "github",
     "url": "https://github.com/noxitylabs/knowledgebase"
   },
+
+  "footerSocials":{
+   "website": "https://noxity.io",
+   "twitter":"https://twitter.com/noxityio",
+   "youtube":"https://www.youtube.com/@noxityio",
+   "github":"https://github.com/noxitylabs/",
+   "instagram":"https://www.instagram.com/noxityio/",
+   "linkedin":"https://www.linkedin.com/company/noxity"
+},
+
+   "modeToggle":{
+   "default":"dark",
+   "isHidden":true
+},
+
+   "feedback":{
+   "thumbsRating":true
+},
+
+   "primaryTab":{
+   "name":"Home"
+},
+
   "tabs":[
      {
         "name":"Virtual Servers",
@@ -48,6 +74,7 @@
         "url":"developers"
      }
   ],
+
   "anchors":[
      {
         "name":"Website",
@@ -80,6 +107,7 @@
         "url":"https://noxity.io/support"
      }
   ],
+
   "navigation":[
      {
         "group":"Get Started",
@@ -99,10 +127,6 @@
            "essentials/navigation"
         ]
      },
-
-
-
-
      {
         "group":"Fusion Control Panel",
         "pages":[
@@ -246,23 +270,5 @@
            "developers/developers"
         ]
      }
-  ],
-  "footerSocials":{
-     "website": "https://noxity.io",
-     "twitter":"https://twitter.com/noxityio",
-     "youtube":"https://www.youtube.com/@noxityio",
-     "github":"https://github.com/noxitylabs/",
-     "instagram":"https://www.instagram.com/noxityio/",
-     "linkedin":"https://www.linkedin.com/company/noxity"
-  },
-  "modeToggle":{
-     "default":"dark",
-     "isHidden":true
-  },
-  "feedback":{
-     "thumbsRating":true
-  },
-  "primaryTab":{
-     "name":"Home"
-  }
+  ]
 }
