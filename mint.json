@@ -75,6 +75,10 @@
       "url": "https://noxity.io/support"
     }
   ],
+
+
+
+
   "navigation": [
     {
       "group": "Get Started",
@@ -84,10 +88,109 @@
       "group": "Essentials",
       "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
     },
+
+
+
+
     {
-      "group": "Virtual Servers",
-      "pages": ["virtual-servers/virtual-servers"]
-    },
+      "group" : "Fusion Control Panel",
+      "pages" : [
+          "virtual-servers/virtual-servers",
+          {
+              "group" : "Server Management",
+              "pages" : [
+                   {
+                       "group" : "Basic Actions",
+                       "pages" : [
+                             "page-3", "page-4"
+                       ]
+                   },
+                   {
+                    "group" : "Media Settings",
+                    "pages" : [
+                          "page-3", "page-4"
+                    ]
+                   },
+                   {
+                    "group" : "Backup & Recovery Center",
+                    "pages" : [
+                          "page-3", "page-4"
+                    ]
+                   },
+                   {
+                    "group" : "Virtual Server Settings",
+                    "pages" : [
+                          "page-3", "page-4"
+                    ]
+                   },
+                   {
+                    "group" : "Network Management",
+                    "pages" : [
+                          "page-3", "page-4"
+                    ]
+                   },
+                   {
+                    "group" : "Storage Settings",
+                    "pages" : [
+                          "page-3", "page-4"
+                    ]
+                   }
+              ]
+          },
+          {
+            "group" : "Sharing Portal",
+                "pages" : [
+                            "page-3", "page-4"
+                          ]
+          },
+          {
+          "group" : "Profile Management",
+              "pages" : [
+                   {
+                       "group" : "SSH Keys",
+                       "pages" : [
+                             "page-3", "page-4"
+                       ]
+                   },
+                   {
+                    "group" : "Security Center",
+                    "pages" : [
+                          "page-3", "page-4"
+                    ]
+                   }
+              ]
+            },
+            {
+              "group" : "Other",
+                  "pages" : [
+                       {
+                           "group" : "Features",
+                           "pages" : [
+                                 "page-3", "page-4"
+                           ]
+                       },
+                       {
+                        "group" : "FAQ",
+                        "pages" : [
+                              "page-3", "page-4"
+                        ]
+                      },
+                       {
+                        "group" : "Troubleshooting & Common Errors",
+                        "pages" : [
+                              "page-3", "page-4"
+                        ]
+                       }
+                  ]
+                }
+      ]
+ },
+
+
+
+
+    
+
     {
       "group": "Web Hosting",
       "pages": ["web-hosting/web-hosting"]
@@ -109,6 +212,9 @@
       "pages": ["developers/developers"]
     }
   ],
+
+
+  
   "footerSocials": {
     "twitter": "https://twitter.com/noxityio",
     "youtube": "https://www.youtube.com/@noxityio",

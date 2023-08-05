@@ -45,6 +45,27 @@ To get started DM Matic on Discord to be added to the knowledgebase team. After 
 
 ---
 
+## To Do
+- Implement raiseIssue and suggestEdit buttons + setup GitHub to receive these requests
+- Open source the knowledgebase system
+- Change background to something more dynamic like on Showcase pages
+- Fix purpleish glow on button hover and search popup
+- Find nice gradient for anchor icon links
+- Add github link to the knolwedgebase in the header
+- Fix cards opening an URL in a new tab
+- Add a "back to top" button
+- Add live chat to the knowledgebase
+- Add icons to sidebar links
+- Add icons to "tabs" in the header if loaded from mobile (currently they all show the same icon)
+- Add website & tiktok icon in the footer
+
+## Ideas
+- Custom colored icons on cards (Example: https://infisical.com/docs/documentation/getting-started/introduction)
+- Custom images on cards (https://docs.propelauth.com/reference/overview)
+- Add emojis / icons to the article navigation guide and be funny with GIFs (https://docs.mage.ai/data-integrations/overview)
+
+---
+
 ## Contributing
 
 Contributions to this project are open and should follow protocols described in Confluence and workflows in Jira.
