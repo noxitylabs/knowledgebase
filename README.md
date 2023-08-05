@@ -58,6 +58,7 @@ To get started DM Matic on Discord to be added to the knowledgebase team. After 
 - Add icons to sidebar links
 - Add icons to "tabs" in the header if loaded from mobile (currently they all show the same icon)
 - Add website & tiktok icon in the footer
+- Implement URL shortener for KB
 
 ## Ideas
 - Custom colored icons on cards (Example: https://infisical.com/docs/documentation/getting-started/introduction)
