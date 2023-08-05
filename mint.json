@@ -107,6 +107,7 @@
            "virtual-servers/overview",
            {
               "group":"Server Management",
+              "icon":"tower-control",
               "pages":[
                  {
                     "group":"Basic Actions",
