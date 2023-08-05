@@ -230,26 +230,31 @@
             "web-hosting/overview",
             {
                "group":"File Management",
+               "icon": "cabinet-filing",
                "pages":[
                   "web-hosting/cpanel/file-management/file-management-example",
                   {
                      "group":"FTP & SFTP",
+                     "icon": "arrow-up-arrow-down",
                      "pages":[
                         "web-hosting/cpanel/file-management/ftp-sftp/ftp-sftp-example"
                      ]
                   },
                   {
                      "group":"Backup Management",
+                     "icon": "clock-rotate-left",
                      "pages":[
                         "web-hosting/cpanel/file-management/backups/backups-example",
                         {
                            "group":"cPanel Backups (Local)",
+                           "icon": "cpanel",
                            "pages":[
                               "web-hosting/cpanel/file-management/backups/local/local-example"
                            ]
                         },
                         {
                            "group":"JetBackup Panel (Remote)",
+                           "icon": "dragon",
                            "pages":[
                               "web-hosting/cpanel/file-management/backups/remote/remote-example"
                            ]
@@ -264,24 +269,28 @@
                   "web-hosting/cpanel/email-management/email-management-example",
                   {
                      "group":"Mail Clients",
+                     "icon": "mailbox",
                      "pages":[
                         "web-hosting/cpanel/email-management/mail-clients/mail-clients-example"
                      ]
                   },
                   {
                      "group":"SpamExperts Filter (Incoming)",
+                     "icon": "down",
                      "pages":[
                         "web-hosting/cpanel/email-management/spamexperts/spamexperts-example"
                      ]
                   },
                   {
                      "group":"MailChannels Filter (Outgoing)",
+                     "icon": "up",
                      "pages":[
                         "web-hosting/cpanel/email-management/mailchannels/mailchannels-example"
                      ]
                   },
                   {
                      "group":"Common Problems",
+                     "icon": "triangle-exclamation",
                      "pages":[
                         "web-hosting/cpanel/email-management/common-problems/common-problems-example"
                      ]
@@ -294,18 +303,21 @@
                   "web-hosting/cpanel/database-management/database-management-example",
                   {
                      "group":"MySQL Wizards",
+                     "icon": "hat-wizard",
                      "pages":[
                         "web-hosting/cpanel/database-management/mysql-wizards/mysql-wizards-example"
                      ]
                   },
                   {
                      "group":"phpMyAdmin",
+                     "icon": "user-helmet-safety",
                      "pages":[
                         "web-hosting/cpanel/database-management/phpmyadmin/phpmyadmin-example"
                      ]
                   },
                   {
                      "group":"Common Problems",
+                     "icon": "triangle-exclamation",
                      "pages":[
                         "web-hosting/cpanel/database-management/common-problems/common-problems-example"
                      ]
@@ -317,12 +329,14 @@
                "pages":[
                   {
                      "group":"DNS Management",
+                     "icon": "spider-web",
                      "pages":[
                         "web-hosting/cpanel/domain-management/dns/dns-example"
                      ]
                   },
                   {
                      "group":"Domains & Subdomains",
+                     "icon": "diagram-subtask",
                      "pages":[
                         "web-hosting/cpanel/domain-management/domains-subdomains/domains-subdomains-example"
                      ]
@@ -331,15 +345,18 @@
             },
             {
                "group":"Metrics & Analytics",
+               "icon": "chart-mixed",
                "pages":[
                   {
                      "group":"Awstats",
+                     "icon": "wave-pulse",
                      "pages":[
                         "web-hosting/cpanel/metrics-analytics/awstats/awstats-example"
                      ]
                   },
                   {
                      "group":"Webalizer",
+                     "icon": "chart-waterfall",
                      "pages":[
                         "web-hosting/cpanel/metrics-analytics/webalizer/webalizer-example"
                      ]
@@ -349,30 +366,35 @@
                      "pages":[
                         {
                            "group":"Resource Usage",
+                           "icon": "gauge-high",
                            "pages":[
                               "web-hosting/cpanel/metrics-analytics/logs/resource-usage/resource-usage-example"
                            ]
                         },
                         {
                            "group":"Error Logs",
+                           "icon": "square-exclamation",
                            "pages":[
                               "web-hosting/cpanel/metrics-analytics/logs/errors/errors-example"
                            ]
                         },
                         {
                            "group":"Visitors",
+                           "icon": "family",
                            "pages":[
                               "web-hosting/cpanel/metrics-analytics/logs/visitors/visitors-example"
                            ]
                         },
                         {
                            "group":"Raw Access",
+                           "icon": "align-justify",
                            "pages":[
                               "web-hosting/cpanel/metrics-analytics/logs/bandwidth/bandwidth-example"
                            ]
                         },
                         {
                            "group":"Bandwidth",
+                           "icon": "router",
                            "pages":[
                               "web-hosting/cpanel/metrics-analytics/logs/raw-access/raw-access-example"
                            ]
@@ -386,18 +408,21 @@
                "pages":[
                   {
                      "group":"SSH Keys",
+                     "icon": "key",
                      "pages":[
                         "web-hosting/cpanel/security-settings/ssh-keys/ssh-keys-example"
                      ]
                   },
                   {
                      "group":"SSL Certificates",
+                     "icon": "file-certificate",
                      "pages":[
                         "web-hosting/cpanel/security-settings/ssl-certificates/ssl-certificates-example"
                      ]
                   },
                   {
                      "group":"BitNinja Antivirus",
+                     "icon": "user-ninja",
                      "pages":[
                         "web-hosting/cpanel/security-settings/bitninja/bitninja-example"
                      ]
@@ -409,12 +434,14 @@
                "pages":[
                   {
                      "group":"Softaculous",
+                     "icon": "browser",
                      "pages":[
                         "web-hosting/cpanel/software/softaculous/softaculous-example"
                      ]
                   },
                   {
                      "group":"Website Builder",
+                     "icon": "forklift",
                      "pages":[
                         "web-hosting/cpanel/software/website-builder/website-builder-example"
                      ]
@@ -426,12 +453,14 @@
                "pages":[
                   {
                      "group":"CRON Jobs Manager",
+                     "icon": "gear-complex-code",
                      "pages":[
                         "web-hosting/cpanel/advanced-settings/cron-jobs/cron-jobs-example"
                      ]
                   },
                   {
                      "group":"PHP Settings & Management",
+                     "icon": "php",
                      "pages":[
                         "web-hosting/cpanel/advanced-settings/php-settings-management/php-settings-management-example"
                      ]
@@ -442,16 +471,20 @@
       },
       {
          "group":"Application Hosting",
+         "icon": "grid-2-plus",
          "pages":[
             {
                "group":"CMS Hosting",
+               "icon": "folder-grid",
                "pages":[
                   {
                      "group":"Wordpress",
+                     "icon": "wordpress",
                      "pages":[
                         "web-hosting/application-hosting/cms/wordpress/wordpress-example",
                         {
                            "group":"WP Toolkit",
+                           "icon": "toolbox",
                            "pages":[
                               "web-hosting/application-hosting/cms/wordpress/wp-toolkit/wp-toolkit-example"
                            ]
@@ -460,12 +493,14 @@
                   },
                   {
                      "group":"Drupal",
+                     "icon": "drupal",
                      "pages":[
                         "web-hosting/application-hosting/cms/drupal/drupal-example"
                      ]
                   },
                   {
                      "group":"Joomla",
+                     "icon": "joomla",
                      "pages":[
                         "web-hosting/application-hosting/cms/joomla/joomla-example"
                      ]
@@ -477,24 +512,28 @@
                "pages":[
                   {
                      "group":"Magento",
+                     "icon": "magento",
                      "pages":[
                         "web-hosting/application-hosting/ecommerce/magento/magento-example"
                      ]
                   },
                   {
                      "group":"PrestaShop",
+                     "icon": "kiwi-bird",
                      "pages":[
                         "web-hosting/application-hosting/ecommerce/prestashop/prestashop-example"
                      ]
                   },
                   {
                      "group":"OpenCart",
+                     "icon": "cart-shopping",
                      "pages":[
                         "web-hosting/application-hosting/ecommerce/opencart/opencart-example"
                      ]
                   },
                   {
                      "group":"WooCommerce",
+                     "icon": "comments-dollar",
                      "pages":[
                         "web-hosting/application-hosting/ecommerce/woocommerce/woocommerce-example"
                      ]
@@ -506,12 +545,14 @@
                "pages":[
                   {
                      "group":"WHMCS",
+                     "icon": "whmcs",
                      "pages":[
                         "web-hosting/application-hosting/billing-systems/whmcs/whmcs-example"
                      ]
                   },
                   {
                      "group":"Blesta",
+                     "icon": "message-smile",
                      "pages":[
                         "web-hosting/application-hosting/billing-systems/blesta/blesta-example"
                      ]
@@ -526,18 +567,21 @@
             "web-hosting/virtual-containers/virtual-containers-example",
             {
                "group":"NodeJS",
+               "icon": "node",
                "pages":[
                   "web-hosting/virtual-containers/nodejs/nodejs-example"
                ]
             },
             {
                "group":"Python",
+               "icon": "python",
                "pages":[
                   "web-hosting/virtual-containers/python/python-example"
                ]
             },
             {
                "group":"Ruby",
+               "icon": "gem",
                "pages":[
                   "web-hosting/virtual-containers/ruby/ruby-example"
                ]
@@ -546,16 +590,19 @@
       },
       {
          "group":"Migrations",
+         "icon": "trucks",
          "pages":[
             "web-hosting/migrations/migrations-example",
             {
                "group":"Migrating to Noxity",
+               "icon": "truck-arrow-right",
                "pages":[
                   "web-hosting/migrations/inbound/inbound-example"
                ]
             },
             {
                "group":"Internal Migrations",
+               "icon": "truck-bolt",
                "pages":[
                   "web-hosting/migrations/internal/internal-example"
                ]
@@ -567,28 +614,27 @@
          "pages":[
             {
                "group":"Features",
+               "icon": "flask-gear",
                "pages":[
                   "web-hosting/other/features/features-example"
                ]
             },
             {
                "group":"FAQ",
+               "icon": "block-question",
                "pages":[
                   "web-hosting/other/faq/faq-example"
                ]
             },
             {
                "group":"Troubleshooting",
+               "icon": "toolbox",
                "pages":[
                   "web-hosting/other/troubleshooting/troubleshooting-example"
                ]
             }
          ]
       },
-
-
-
-
       {
          "group":"Domains",
          "pages":[
