@@ -265,6 +265,7 @@
             },
             {
                "group":"Email Management",
+               "icon": "envelopes",
                "pages":[
                   "web-hosting/cpanel/email-management/email-management-example",
                   {
@@ -299,6 +300,7 @@
             },
             {
                "group":"Database Management",
+               "icon": "database",
                "pages":[
                   "web-hosting/cpanel/database-management/database-management-example",
                   {
@@ -326,6 +328,7 @@
             },
             {
                "group":"Domain Management",
+               "icon": "galaxy",
                "pages":[
                   {
                      "group":"DNS Management",
@@ -363,6 +366,7 @@
                   },
                   {
                      "group":"Logs",
+                     "icon": "scroll",
                      "pages":[
                         {
                            "group":"Resource Usage",
@@ -405,6 +409,7 @@
             },
             {
                "group":"Security Settings",
+               "icon": "tower-observation",
                "pages":[
                   {
                      "group":"SSH Keys",
@@ -431,6 +436,7 @@
             },
             {
                "group":"Software",
+               "icon": "computer",
                "pages":[
                   {
                      "group":"Softaculous",
@@ -450,6 +456,7 @@
             },
             {
                "group":"Advanced Settings",
+               "icon": "starfighter-twin-ion-engine-advanced",
                "pages":[
                   {
                      "group":"CRON Jobs Manager",
@@ -509,6 +516,7 @@
             },
             {
                "group":"eCommerce Hosting",
+               "icon": "cash-register",
                "pages":[
                   {
                      "group":"Magento",
@@ -542,6 +550,7 @@
             },
             {
                "group":"Billing System Hosting",
+               "icon": "coin-vertical",
                "pages":[
                   {
                      "group":"WHMCS",
