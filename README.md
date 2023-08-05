@@ -2,21 +2,24 @@
 
 This repository is used to store the knowledgebase files for Noxity. The knowledgebase is powered by Mintlify which pulls all content directly from this repository.
 
-![License](https://img.shields.io/badge/license-closed%20source-red)
+![Open Source License](https://img.shields.io/badge/License-Open%20Source-green.svg)
 
 ---
 
 ## Table of Contents
-- [Getting Started](#getting-started)
+- [Getting Started with Contributing](#getting-started-with-contributing)
+- [To Do List](#to-dos)
+- [Ideas List](#ideas)
 - [Authors](#authors)
-- [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
 
 ---
 
-## Getting Started
+## Getting Started with contributing
 
-To get started DM Matic on Discord to be added to the knowledgebase team. After a team leader has added you to the team you can start editing the knowledgebase.
+Contributions to this project are currenly limited to Noxity staff only. Thus these instructions serve informational purpose only to the public. Soon we plan to open issue and suggestion system for everyone.
+
+To get started message project leader on Discord to be added to the knowledgebase team. After a team leader has added you to the team you can start editing the knowledgebase.
 
 ### Initial Setup
 
@@ -25,17 +28,43 @@ To get started DM Matic on Discord to be added to the knowledgebase team. After 
 
 ### Editing the Knowledgebase
 
-1. You always push to your own branch. It will be your firstname-lastname. This is because we are limited to one contributor per organisation.
+1. You always push to your own branch. It will be your firstname-lastname.
 2. Create a new branch from the `main` branch.
 3. Make your changes to the knowledgebase.
 4. Commit your changes to **your** branch.
 5. Create a pull request to the `main` branch.
-6. Wait for a team leader to review your changes.   
+6. Wait for a project maintainer to review your changes.
 
 ### Tips and Notes
 
-1. The knowledgebase uses formatting available here: https://help.noxity.io/essentials/markdown - This will be later moved to Confluence.
-2. If you are using Visual Studio Code, we reccomend setting syntax checker to "HTML" for .mdx files within this project. This will help you see any errors in your formatting.
+1. The knowledgebase uses formatting available here: https://help.noxity.io/essentials/markdown
+2. If you are using Visual Studio Code, we recommend setting syntax checker to "HTML" for .mdx files within this project. This will help you see any errors in your formatting.
+
+---
+## To Dos
+- Add github link to the knolwedgebase in the header - DONE ✅
+- Open source the knowledgebase system - DONE ✅
+- Add icons to sidebar links - DONE ✅
+
+- Implement different "sidebarTitle" for each article
+- Implement "raiseIssue" and "suggestEdit" buttons + setup GitHub to allow these requests
+- Change background to something more dynamic
+- Fix purpleish glow on button hover and search popup. Replace it with Noxity red
+- Find nice gradient for anchor icon links
+- Fix card links opening in a new tab
+- Add a "back to top" button
+- Add live chat to the knowledgebase
+- Add icons to "tabs" in the header if loaded from mobile (currently they all show the same icon)
+- Add website & tiktok icon in the footer
+- Implement URL shortener for KB
+
+---
+## Ideas
+- Implement "og:image" in the head section of each article
+- Custom colored icons on cards (Example: https://infisical.com/docs/documentation/getting-started/introduction)
+- Custom images on cards (https://docs.propelauth.com/reference/overview)
+- Add emojis / icons to the article navigation guide and be funny with GIFs (https://docs.mage.ai/data-integrations/overview)
+- Investiate  "ultraLight" & "ultraDark" configuration options
 
 ---
 
@@ -44,39 +73,11 @@ To get started DM Matic on Discord to be added to the knowledgebase team. After 
 - [Matic Bončina](https://github.com/maticboncina)
 
 ---
-
-## To Do
-- Implement raiseIssue and suggestEdit buttons + setup GitHub to receive these requests
-- Open source the knowledgebase system
-- Change background to something more dynamic like on Showcase pages
-- Fix purpleish glow on button hover and search popup
-- Find nice gradient for anchor icon links
-- Add github link to the knolwedgebase in the header
-- Fix cards opening an URL in a new tab
-- Add a "back to top" button
-- Add live chat to the knowledgebase
-- Add icons to sidebar links
-- Add icons to "tabs" in the header if loaded from mobile (currently they all show the same icon)
-- Add website & tiktok icon in the footer
-- Implement URL shortener for KB
-
-## Ideas
-- Custom colored icons on cards (Example: https://infisical.com/docs/documentation/getting-started/introduction)
-- Custom images on cards (https://docs.propelauth.com/reference/overview)
-- Add emojis / icons to the article navigation guide and be funny with GIFs (https://docs.mage.ai/data-integrations/overview)
-
----
-
-## Contributing
-
-Contributions to this project are open and should follow protocols described in Confluence and workflows in Jira.
-
----
-
 ## Acknowledgements
 
 We would like to acknowledge the following projects for their contributions:
 
 - [Mintlify](https://github.com/mintlify/starter) - Knowledgebase system
+- [Inspiration](https://mintlify.com/showcase) - The extent of available possibilities and features with Mintlify wouldn't be possible without the showcases of other projects.
 
 This project itself (knowledgebase system) is free and open-source software provided by Mintlify, but we reserve all rights to our content and own modifications.
