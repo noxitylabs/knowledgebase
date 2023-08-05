@@ -81,9 +81,7 @@
     "isHidden": true
 },
   "feedback": {
-    "thumbsRating": true,
-    "suggestEdit": true,
-    "raiseIssue": true
+    "thumbsRating": true
   },
   "primaryTab": {
     "name": "Home"
