@@ -84,7 +84,9 @@
      {
         "group":"Get Started",
         "pages":[
-           "introduction"
+           "introduction",
+           "contributing",
+           "noxity"
         ]
      },
      {
