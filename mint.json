@@ -359,7 +359,7 @@
                         {
                            "group":"Error Logs",
                            "pages":[
-                              "web-hosting/cpanel/metrics-analytics/logs/errors/error-example"
+                              "web-hosting/cpanel/metrics-analytics/logs/errors/errors-example"
                            ]
                         },
                         {
@@ -371,13 +371,13 @@
                         {
                            "group":"Raw Access",
                            "pages":[
-                              "web-hosting/cpanel/metrics-analytics//logs/bandwidth/bandwidth-example"
+                              "web-hosting/cpanel/metrics-analytics/logs/bandwidth/bandwidth-example"
                            ]
                         },
                         {
                            "group":"Bandwidth",
                            "pages":[
-                              "web-hosting/cpanel/metrics-analytics//logs/raw-access/raw-access-example"
+                              "web-hosting/cpanel/metrics-analytics/logs/raw-access/raw-access-example"
                            ]
                         }
                      ]
