@@ -1,6 +1,6 @@
 # Noxity Knowledgebase
 
-This repository is used to store the knowledgebase files for Noxity. The knowledgebase is powered by Mintlify which pulls all content directly from this repository.
+This repository is used to store the knowledgebase files for Noxity. The knowledgebase is powered by Mintlify which pulls all content directly from this repository. The knowledgebase is available [here](https://help.noxity.io).
 
 ![Open Source License](https://img.shields.io/badge/License-Open%20Source-green.svg)
 
