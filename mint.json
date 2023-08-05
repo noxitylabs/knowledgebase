@@ -315,7 +315,6 @@
             {
                "group":"Domain Management",
                "pages":[
-                  "web-hosting/cpanel/domain-management/domain-management-example",
                   {
                      "group":"DNS Management",
                      "pages":[
@@ -333,7 +332,6 @@
             {
                "group":"Metrics & Analytics",
                "pages":[
-                  "web-hosting/cpanel/metrics-analytics/metrics-analytics-example",
                   {
                      "group":"Awstats",
                      "pages":[
@@ -349,7 +347,6 @@
                   {
                      "group":"Logs",
                      "pages":[
-                        "web-hosting/cpanel/metrics-analytics/logs/logs-example",
                         {
                            "group":"Resource Usage",
                            "pages":[
@@ -387,7 +384,6 @@
             {
                "group":"Security Settings",
                "pages":[
-                  "web-hosting/cpanel/security-settings/security-settings-example",
                   {
                      "group":"SSH Keys",
                      "pages":[
@@ -411,7 +407,6 @@
             {
                "group":"Software",
                "pages":[
-                  "web-hosting/cpanel/software/software-example",
                   {
                      "group":"Softaculous",
                      "pages":[
@@ -429,7 +424,6 @@
             {
                "group":"Advanced Settings",
                "pages":[
-                  "web-hosting/cpanel/advanced-settings/advanced-settings-example",
                   {
                      "group":"CRON Jobs Manager",
                      "pages":[
@@ -449,11 +443,9 @@
       {
          "group":"Application Hosting",
          "pages":[
-            "web-hosting/application-hosting/application-hosting-example",
             {
                "group":"CMS Hosting",
                "pages":[
-                  "web-hosting/application-hosting/cms/cms-example",
                   {
                      "group":"Wordpress",
                      "pages":[
@@ -483,7 +475,6 @@
             {
                "group":"eCommerce Hosting",
                "pages":[
-                  "web-hosting/application-hosting/ecommerce/ecommerce-example",
                   {
                      "group":"Magento",
                      "pages":[
@@ -513,7 +504,6 @@
             {
                "group":"Billing System Hosting",
                "pages":[
-                  "web-hosting/application-hosting/billing-systems/billing-systems-example",
                   {
                      "group":"WHMCS",
                      "pages":[
@@ -524,12 +514,6 @@
                      "group":"Blesta",
                      "pages":[
                         "web-hosting/application-hosting/billing-systems/blesta/blesta-example"
-                     ]
-                  },
-                  {
-                     "group":"ClientExec",
-                     "pages":[
-                        "web-hosting/application-hosting/billing-systems/clientexec/clientexec-example"
                      ]
                   }
                ]
