@@ -159,32 +159,32 @@
                     ]
                    }
               ]
-            },
-            {
-              "group" : "Other",
-                  "pages" : [
-                       {
-                           "group" : "Features",
-                           "pages" : [
-                                 "page-3", "page-4"
-                           ]
-                       },
-                       {
-                        "group" : "FAQ",
-                        "pages" : [
-                              "page-3", "page-4"
-                        ]
-                      },
-                       {
-                        "group" : "Troubleshooting & Common Errors",
-                        "pages" : [
-                              "page-3", "page-4"
-                        ]
-                       }
-                  ]
-                }
+            }
       ]
  },
+ {
+  "group" : "Other",
+      "pages" : [
+           {
+               "group" : "Features",
+               "pages" : [
+                     "virtual-servers", "page-4"
+               ]
+           },
+           {
+            "group" : "FAQ",
+            "pages" : [
+                     "virtual-servers", "page-4"
+            ]
+          },
+           {
+            "group" : "Troubleshooting & Common Errors",
+            "pages" : [
+                     "virtual-servers", "page-4"
+            ]
+           }
+      ]
+    },
 
 
 
