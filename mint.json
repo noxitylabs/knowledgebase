@@ -51,7 +51,7 @@
   "anchors":[
      {
         "name":"Website",
-        "icon":"globe-pointer",
+        "icon":"browser",
         "url":"https://help.noxity.io"
      },
      {
