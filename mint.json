@@ -18,10 +18,16 @@
         "to":"#dd2249"
      }
   },
-  "topbarCtaButton":{
-     "name":"Website",
-     "url":"https://noxity.io"
+  "topbarCtaButton": {
+    "type": "github",
+    "url": "https://github.com/noxitylabs/knowledgebase"
   },
+  "topbarLinks": [
+    {
+      "name": "Website",
+      "url": "https://noxity.io"
+    }
+  ],
   "tabs":[
      {
         "name":"Virtual Servers",
@@ -70,8 +76,13 @@
         "url":"https://status.noxity.io"
      },
      {
-        "name":"Support",
-        "icon":"circle-question",
+      "name":"Link Tree",
+      "icon":"bullseye-pointer",
+      "url":"https://tree.noxity.io"
+     },
+     {
+        "name":"Contact Us",
+        "icon":"paper-plane",
         "url":"https://noxity.io/support"
      }
   ],
@@ -227,6 +238,7 @@
      }
   ],
   "footerSocials":{
+     "website": "https://noxity.io",
      "twitter":"https://twitter.com/noxityio",
      "youtube":"https://www.youtube.com/@noxityio",
      "github":"https://github.com/noxitylabs/",
