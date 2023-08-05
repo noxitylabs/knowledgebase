@@ -8,7 +8,7 @@ This repository is used to store the knowledgebase files for Noxity. The knowled
 
 ## Table of Contents
 - [Getting Started with Contributing](#getting-started-with-contributing)
-- [To Do List](#to-dos)
+- [To Do List](#to-do)
 - [Ideas List](#ideas)
 - [Authors](#authors)
 - [Acknowledgements](#acknowledgements)
@@ -41,7 +41,7 @@ To get started message project leader on Discord to be added to the knowledgebas
 2. If you are using Visual Studio Code, we recommend setting syntax checker to "HTML" for .mdx files within this project. This will help you see any errors in your formatting.
 
 ---
-## To Dos
+## To Do
 #### In progress
 - Change background to something more dynamic
 - Find nice gradient for anchor icon links
