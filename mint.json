@@ -1,326 +1,609 @@
 {
-  "$schema":"https://mintlify.com/schema.json",
-  "name":"Noxity Knowledgebase",
-  "logo":{
-     "dark":"/logo/light.png",
-     "light":"/logo/dark.png"
-  },
-
-  "favicon":"/logo/favicon.png",
-
-  "colors":{
-     "primary":"#dd2249",
-     "light":"#dd2249",
-     "dark":"#0D001D",
-     "background":{
-        "dark":"#090014"
-     },
-     "anchors":{
-        "from":"#dd2249",
-        "to":"#dd2249"
-     }
-  },
-
-  "topbarCtaButton": {
-    "type": "github",
-    "url": "https://github.com/noxitylabs/knowledgebase"
-  },
-
-  "footerSocials":{
-   "website": "https://noxity.io",
-   "twitter":"https://twitter.com/noxityio",
-   "youtube":"https://www.youtube.com/@noxityio",
-   "github":"https://github.com/noxitylabs/",
-   "instagram":"https://www.instagram.com/noxityio/",
-   "linkedin":"https://www.linkedin.com/company/noxity"
-},
-
-   "modeToggle":{
-   "default":"dark",
-   "isHidden":true
-},
-
-   "feedback":{
-   "thumbsRating":true
-},
-
-   "primaryTab":{
-   "name":"Home"
-},
-
-  "tabs":[
-     {
-        "name":"Virtual Servers",
-        "url":"virtual-servers"
-     },
-     {
-        "name":"Web Hosting",
-        "url":"web-hosting"
-     },
-     {
-        "name":"Domains",
-        "url":"domains"
-     },
-     {
-        "name":"Members Area",
-        "url":"members"
-     },
-     {
-        "name":"How To Guides",
-        "url":"how-to"
-     },
-     {
-        "name":"Developer Corner",
-        "url":"developers"
-     }
-  ],
-
-  "anchors":[
-     {
-        "name":"Website",
-        "icon":"browser",
-        "url":"https://noxity.io"
-     },
-     {
-        "name":"Community",
-        "icon":"discord",
-        "url":"https://discord.noxity.io"
-     },
-     {
-        "name":"Blog",
-        "icon":"typewriter",
-        "url":"https://blog.noxity.io"
-     },
-     {
-        "name":"Status Page",
-        "icon":"signal-bars",
-        "url":"https://status.noxity.io"
-     },
-     {
-      "name":"Linktree",
-      "icon":"bullseye-pointer",
-      "url":"https://tree.noxity.io"
-     },
-     {
-        "name":"Contact Us",
-        "icon":"paper-plane",
-        "url":"https://noxity.io/support"
-     }
-  ],
-
-  "navigation":[
-     {
-        "group":"Get Started",
-        "pages":[
-           "introduction",
-           "contributing",
-           "noxity"
-        ]
-     },
-     {
-        "group":"Essentials",
-        "pages":[
-           "essentials/markdown",
-           "essentials/code",
-           "essentials/images",
-           "essentials/settings",
-           "essentials/navigation"
-        ]
-     },
-     {
-        "group":"Fusion Control Panel",
-        "pages":[
-           "virtual-servers/overview",
-           {
-              "group":"Server Management",
-              "icon":"tower-control",
-              "pages":[
-                 {
-                    "group":"Basic Actions",
-                    "icon":"sliders-simple",
-                    "pages":[
-                       "virtual-servers/fusion/server-management/basic-actions/basic-actions-example"
-                    ]
-                 },
-                 {
-                    "group":"Media Settings",
-                    "icon":"disc-drive",
-                    "pages":[
-                       "virtual-servers/fusion/server-management/media-settings/media-settings-example"
-                    ]
-                 },
-                 {
-                    "group":"Backup & Recovery Center",
-                    "icon":"clock-rotate-left",
-                    "pages":[
-                       "virtual-servers/fusion/server-management/backup-recovery-center/backup-recovery-center-example"
-                    ]
-                 },
-                 {
-                    "group":"Virtual Server Settings",
-                    "icon":"screwdriver-wrench",
-                    "pages":[
-                       "virtual-servers/fusion/server-management/virtual-server-settings/virtual-server-settings-example"
-                    ]
-                 },
-                 {
-                    "group":"Network Management",
-                    "icon":"chart-network",
-                    "pages":[
-                       "virtual-servers/fusion/server-management/network-management/network-management-example"
-                    ]
-                 },
-                 {
-                    "group":"Storage Settings",
-                    "icon":"hard-drive",
-                    "pages":[
-                       "virtual-servers/fusion/server-management/storage-settings/storage-settings-example"
-                    ]
-                 }
-              ]
-           },
-           {
-              "group":"Sharing Portal",
-              "icon":"share",
-              "pages":[
-                 "virtual-servers/fusion/sharing-portal/sharing-portal-example"
-              ]
-           },
-           {
-              "group":"Profile Management",
-              "icon":"user",
-              "pages":[
-                 {
-                    "group":"SSH Keys",
-                    "icon":"key",
-                    "pages":[
-                       "virtual-servers/fusion/profile-management/security-center/security-center-example"
-                    ]
-                 },
-                 {
-                    "group":"Security Center",
-                    "icon":"shield-keyhole",
-                    "pages":[
-                       "virtual-servers/fusion/profile-management/ssh-keys/ssh-keys-example"
-                    ]
-                 }
-              ]
-           }
-        ]
-     },
-     {
-        "group":"Other",
-        "pages":[
-           {
-              "group":"Features",
-              "icon":"flask-gear",
-              "pages":[
-                 "virtual-servers/other/features/features-example"
-              ]
-           },
-           {
-            "group":"FAQ",
-            "icon":"block-question",
-            "pages":[
-              "virtual-servers/other/faq/faq-example"
-            ]
-           },
-           {
-              "group":"Troubleshooting",
-              "icon":"toolbox",
-              "pages":[
-                "virtual-servers/other/troubleshooting/troubleshooting-example"
-              ]
-           }
-        ]
-     },
-
-
-     
-     {
-      "group":"cPanel Control Panel",
-      "pages":[
-         "web-hosting/overview",
-         {
-            "group":"File Management",
-            "pages":[
-               {
-                  "group":"FTP & SFTP",
-                  "pages":[
-                     "virtual-servers/fusion/server-management/basic-actions/basic-actions-example"
-                  ]
-               },
-               {
-                  "group":"Backup Management",
-                  "pages":[
-                     "virtual-servers/fusion/server-management/media-settings/media-settings-example",
-                     {
-                        "group":"JetBackup Panel",
-                        "pages":[
-                           "virtual-servers/fusion/server-management/backup-recovery-center/backup-recovery-center-example"
-                        ]
-                     }
-                  ]
-               }
-            ]
-         },
-         {
-            "group":"Sharing Portal",
-            "pages":[
-               "virtual-servers/fusion/sharing-portal/sharing-portal-example"
-            ]
-         },
-         {
-            "group":"Profile Management",
-            "pages":[
-               {
-                  "group":"SSH Keys",
-                  "pages":[
-                     "virtual-servers/fusion/profile-management/security-center/security-center-example"
-                  ]
-               },
-               {
-                  "group":"Security Center",
-                  "pages":[
-                     "virtual-servers/fusion/profile-management/ssh-keys/ssh-keys-example"
-                  ]
-               }
-            ]
-         }
-      ]
+   "$schema":"https://mintlify.com/schema.json",
+   "name":"Noxity Knowledgebase",
+   "logo":{
+      "dark":"/logo/light.png",
+      "light":"/logo/dark.png"
    },
+   "favicon":"/logo/favicon.png",
+   "colors":{
+      "primary":"#dd2249",
+      "light":"#dd2249",
+      "dark":"#0D001D",
+      "background":{
+         "dark":"#090014"
+      },
+      "anchors":{
+         "from":"#dd2249",
+         "to":"#dd2249"
+      }
+   },
+   "topbarCtaButton":{
+      "type":"github",
+      "url":"https://github.com/noxitylabs/knowledgebase"
+   },
+   "footerSocials":{
+      "website":"https://noxity.io",
+      "twitter":"https://twitter.com/noxityio",
+      "youtube":"https://www.youtube.com/@noxityio",
+      "github":"https://github.com/noxitylabs/",
+      "instagram":"https://www.instagram.com/noxityio/",
+      "linkedin":"https://www.linkedin.com/company/noxity"
+   },
+   "modeToggle":{
+      "default":"dark",
+      "isHidden":true
+   },
+   "feedback":{
+      "thumbsRating":true
+   },
+   "primaryTab":{
+      "name":"Home"
+   },
+   "tabs":[
+      {
+         "name":"Virtual Servers",
+         "url":"virtual-servers"
+      },
+      {
+         "name":"Web Hosting",
+         "url":"web-hosting"
+      },
+      {
+         "name":"Domains",
+         "url":"domains"
+      },
+      {
+         "name":"Members Area",
+         "url":"members"
+      },
+      {
+         "name":"How To Guides",
+         "url":"how-to"
+      },
+      {
+         "name":"Developer Corner",
+         "url":"developers"
+      }
+   ],
+   "anchors":[
+      {
+         "name":"Website",
+         "icon":"browser",
+         "url":"https://noxity.io"
+      },
+      {
+         "name":"Community",
+         "icon":"discord",
+         "url":"https://discord.noxity.io"
+      },
+      {
+         "name":"Blog",
+         "icon":"typewriter",
+         "url":"https://blog.noxity.io"
+      },
+      {
+         "name":"Status Page",
+         "icon":"signal-bars",
+         "url":"https://status.noxity.io"
+      },
+      {
+         "name":"Linktree",
+         "icon":"bullseye-pointer",
+         "url":"https://tree.noxity.io"
+      },
+      {
+         "name":"Contact Us",
+         "icon":"paper-plane",
+         "url":"https://noxity.io/support"
+      }
+   ],
+   "navigation":[
+      {
+         "group":"Get Started",
+         "pages":[
+            "introduction",
+            "contributing",
+            "noxity"
+         ]
+      },
+      {
+         "group":"Essentials",
+         "pages":[
+            "essentials/markdown",
+            "essentials/code",
+            "essentials/images",
+            "essentials/settings",
+            "essentials/navigation"
+         ]
+      },
+      {
+         "group":"Fusion Control Panel",
+         "pages":[
+            "virtual-servers/overview",
+            {
+               "group":"Server Management",
+               "icon":"tower-control",
+               "pages":[
+                  {
+                     "group":"Basic Actions",
+                     "icon":"sliders-simple",
+                     "pages":[
+                        "virtual-servers/fusion/server-management/basic-actions/basic-actions-example"
+                     ]
+                  },
+                  {
+                     "group":"Media Settings",
+                     "icon":"disc-drive",
+                     "pages":[
+                        "virtual-servers/fusion/server-management/media-settings/media-settings-example"
+                     ]
+                  },
+                  {
+                     "group":"Backup & Recovery Center",
+                     "icon":"clock-rotate-left",
+                     "pages":[
+                        "virtual-servers/fusion/server-management/backup-recovery-center/backup-recovery-center-example"
+                     ]
+                  },
+                  {
+                     "group":"Virtual Server Settings",
+                     "icon":"screwdriver-wrench",
+                     "pages":[
+                        "virtual-servers/fusion/server-management/virtual-server-settings/virtual-server-settings-example"
+                     ]
+                  },
+                  {
+                     "group":"Network Management",
+                     "icon":"chart-network",
+                     "pages":[
+                        "virtual-servers/fusion/server-management/network-management/network-management-example"
+                     ]
+                  },
+                  {
+                     "group":"Storage Settings",
+                     "icon":"hard-drive",
+                     "pages":[
+                        "virtual-servers/fusion/server-management/storage-settings/storage-settings-example"
+                     ]
+                  }
+               ]
+            },
+            {
+               "group":"Sharing Portal",
+               "icon":"share",
+               "pages":[
+                  "virtual-servers/fusion/sharing-portal/sharing-portal-example"
+               ]
+            },
+            {
+               "group":"Profile Management",
+               "icon":"user",
+               "pages":[
+                  {
+                     "group":"SSH Keys",
+                     "icon":"key",
+                     "pages":[
+                        "virtual-servers/fusion/profile-management/security-center/security-center-example"
+                     ]
+                  },
+                  {
+                     "group":"Security Center",
+                     "icon":"shield-keyhole",
+                     "pages":[
+                        "virtual-servers/fusion/profile-management/ssh-keys/ssh-keys-example"
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "group":"Other",
+         "pages":[
+            {
+               "group":"Features",
+               "icon":"flask-gear",
+               "pages":[
+                  "virtual-servers/other/features/features-example"
+               ]
+            },
+            {
+               "group":"FAQ",
+               "icon":"block-question",
+               "pages":[
+                  "virtual-servers/other/faq/faq-example"
+               ]
+            },
+            {
+               "group":"Troubleshooting",
+               "icon":"toolbox",
+               "pages":[
+                  "virtual-servers/other/troubleshooting/troubleshooting-example"
+               ]
+            }
+         ]
+      },
+      {
+         "group":"cPanel Control Panel",
+         "pages":[
+            "web-hosting/overview",
+            {
+               "group":"File Management",
+               "pages":[
+                  "web-hosting/cpanel/file-management/file-management-example",
+                  {
+                     "group":"FTP & SFTP",
+                     "pages":[
+                        "web-hosting/cpanel/file-management/ftp-sftp/ftp-sftp-example"
+                     ]
+                  },
+                  {
+                     "group":"Backup Management",
+                     "pages":[
+                        "web-hosting/cpanel/file-management/backups/backups-example",
+                        {
+                           "group":"cPanel Backups (Local)",
+                           "pages":[
+                              "web-hosting/cpanel/file-management/backups/local/local-example"
+                           ]
+                        },
+                        {
+                           "group":"JetBackup Panel (Remote)",
+                           "pages":[
+                              "web-hosting/cpanel/file-management/backups/remote/remote-example"
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "group":"Email Management",
+               "pages":[
+                  "virtual-servers/cpanel/email-management/email-management-example",
+                  {
+                     "group":"Mail Clients",
+                     "pages":[
+                        "web-hosting/cpanel/email-management/mail-clients/mail-clients-example"
+                     ]
+                  },
+                  {
+                     "group":"SpamExperts Filter (Incoming)",
+                     "pages":[
+                        "web-hosting/cpanel/email-management/spamexperts/spamexperts-example"
+                     ]
+                  },
+                  {
+                     "group":"MailChannels Filter (Outgoing)",
+                     "pages":[
+                        "web-hosting/cpanel/email-management/mailchannels/mailchannels-example"
+                     ]
+                  },
+                  {
+                     "group":"Common Problems",
+                     "pages":[
+                        "web-hosting/cpanel/email-management/common-problems/common-problems-example"
+                     ]
+                  }
+               ]
+            },
+            {
+               "group":"Database Management",
+               "pages":[
+                  "virtual-servers/cpanel/database-management/database-management-example",
+                  {
+                     "group":"MySQL Wizards",
+                     "pages":[
+                        "web-hosting/cpanel/database-management/mysql-wizards/mysql-wizards-example"
+                     ]
+                  },
+                  {
+                     "group":"phpMyAdmin",
+                     "pages":[
+                        "web-hosting/cpanel/database-management/phpmyadmin/phpmyadmin-example"
+                     ]
+                  },
+                  {
+                     "group":"Common Problems",
+                     "pages":[
+                        "web-hosting/cpanel/database-management/common-problems/common-problems-example"
+                     ]
+                  }
+               ]
+            },
+            {
+               "group":"Domain Management",
+               "pages":[
+                  "virtual-servers/cpanel/domain-management/domain-management-example",
+                  {
+                     "group":"DNS Management",
+                     "pages":[
+                        "web-hosting/cpanel/dns-management/dns-management-example"
+                     ]
+                  },
+                  {
+                     "group":"Domains & Subdomains",
+                     "pages":[
+                        "web-hosting/cpanel/domain-management/domains-subdomains/domains-subdomains-example"
+                     ]
+                  }
+               ]
+            },
+            {
+               "group":"Metrics & Analytics",
+               "pages":[
+                  "virtual-servers/cpanel/metrics-analytics/metrics-analytics-example",
+                  {
+                     "group":"Awstats",
+                     "pages":[
+                        "web-hosting/cpanel/metrics-analytics/awstats/awstats-example"
+                     ]
+                  },
+                  {
+                     "group":"Webalizer",
+                     "pages":[
+                        "web-hosting/cpanel/metrics-analytics/webalizer/webalizer-example"
+                     ]
+                  },
+                  {
+                     "group":"Raw Access Logs",
+                     "pages":[
+                        "web-hosting/cpanel/metrics-analytics/raw-access-logs/raw-access-logs-example"
+                     ]
+                  },
+                  {
+                     "group":"Error Logs",
+                     "pages":[
+                        "web-hosting/cpanel/metrics-analytics/error-logs/error-logs-example"
+                     ]
+                  }
+               ]
+            },
+            {
+               "group":"Security Settings",
+               "pages":[
+                  "web-hosting/cpanel/security-settings/security-settings-example",
+                  {
+                     "group":"SSH Keys",
+                     "pages":[
+                        "web-hosting/cpanel/security-settings/ssh-keys/ssh-keys-example"
+                     ]
+                  },
+                  {
+                     "group":"SSL Certificates",
+                     "pages":[
+                        "web-hosting/cpanel/security-settings/ssl-certificates/ssl-certificates-example"
+                     ]
+                  },
+                  {
+                     "group":"BitNinja Antivirus",
+                     "pages":[
+                        "web-hosting/cpanel/security-settings/bitninja/bitninja-example"
+                     ]
+                  }
+               ]
+            },
+            {
+               "group":"Software",
+               "pages":[
+                  "web-hosting/cpanel/software/software-example",
+                  {
+                     "group":"Softaculous",
+                     "pages":[
+                        "web-hosting/cpanel/software/softaculous/softaculous-example"
+                     ]
+                  },
+                  {
+                     "group":"Website Builder",
+                     "pages":[
+                        "web-hosting/cpanel/software/website-builder/website-builder-example"
+                     ]
+                  }
+               ]
+            },
+            {
+               "group":"Advanced Settings",
+               "pages":[
+                  "web-hosting/cpanel/advanced-settings/advanced-settings-example",
+                  {
+                     "group":"CRON Jobs Manager",
+                     "pages":[
+                        "web-hosting/cpanel/advanced-settings/cron-jobs/cron-jobs-example"
+                     ]
+                  },
+                  {
+                     "group":"PHP Settings & Management",
+                     "pages":[
+                        "web-hosting/cpanel/advanced-settings/php-settings-management/php-settings-management-example"
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "group":"Application Hosting",
+         "pages":[
+            "web-hosting/application-hosting/application-hosting-example",
+            {
+               "group":"CMS Hosting",
+               "pages":[
+                  "web-hosting/application-hosting/cms/cms-example",
+                  {
+                     "group":"Wordpress",
+                     "pages":[
+                        "web-hosting/application-hosting/cms/wordpress/wordpress-example",
+                        {
+                           "group":"WP Toolkit",
+                           "pages":[
+                              "web-hosting/application-hosting/cms/wordpress/wp-toolkit/wp-toolkit-example"
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "group":"Drupal",
+                     "pages":[
+                        "web-hosting/application-hosting/cms/drupal/drupal-example"
+                     ]
+                  },
+                  {
+                     "group":"Joomla",
+                     "pages":[
+                        "web-hosting/application-hosting/cms/joomla/joomla-example"
+                     ]
+                  }
+               ]
+            },
+            {
+               "group":"eCommerce Hosting",
+               "pages":[
+                  "web-hosting/application-hosting/e-commerce/e-commerce-example",
+                  {
+                     "group":"Magento",
+                     "pages":[
+                        "web-hosting/application-hosting/e-commerce/magento/magento-example"
+                     ]
+                  },
+                  {
+                     "group":"PrestaShop",
+                     "pages":[
+                        "web-hosting/application-hosting/e-commerce/prestashop/prestashop-example"
+                     ]
+                  },
+                  {
+                     "group":"OpenCart",
+                     "pages":[
+                        "web-hosting/application-hosting/e-commerce/opencart/opencart-example"
+                     ]
+                  },
+                  {
+                     "group":"WooCommerce",
+                     "pages":[
+                        "web-hosting/application-hosting/e-commerce/woocommerce/woocommerce-example"
+                     ]
+                  }
+               ]
+            },
+            {
+               "group":"Billing System Hosting",
+               "pages":[
+                  "web-hosting/application-hosting/billing-systems/billing-systems-example",
+                  {
+                     "group":"WHMCS",
+                     "pages":[
+                        "web-hosting/application-hosting/billing-systems/whmcs/whmcs-example"
+                     ]
+                  },
+                  {
+                     "group":"Blesta",
+                     "pages":[
+                        "web-hosting/application-hosting/billing-systems/blesta/blesta-example"
+                     ]
+                  },
+                  {
+                     "group":"ClientExec",
+                     "pages":[
+                        "web-hosting/application-hosting/billing-systems/clientexec/clientexec-example"
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "group":"Virtual Containers",
+         "pages":[
+            "web-hosting/virtual-containers/virtual-containers-example",
+            {
+               "group":"NodeJS",
+               "pages":[
+                  "web-hosting/virtual-containers/nodejs/nodejs-example"
+               ]
+            },
+            {
+               "group":"Python",
+               "pages":[
+                  "web-hosting/virtual-containers/python/python-example"
+               ]
+            },
+            {
+               "group":"Ruby",
+               "pages":[
+                  "web-hosting/virtual-containers/ruby/ruby-example"
+               ]
+            }
+         ]
+      },
+      {
+         "group":"Migrations",
+         "pages":[
+            "web-hosting/migrations/migrations-example",
+            {
+               "group":"Migrating to Noxity",
+               "pages":[
+                  "web-hosting/migrations/inbound/inbound-example"
+               ]
+            },
+            {
+               "group":"Internal Migrations",
+               "pages":[
+                  "web-hosting/migrations/internal/internal-example"
+               ]
+            }
+         ]
+      },
+      {
+         "group":"Other",
+         "pages":[
+            {
+               "group":"Features",
+               "pages":[
+                  "web-hosting/other/features/features-example"
+               ]
+            },
+            {
+               "group":"FAQ",
+               "pages":[
+                  "web-hosting/other/faq/faq-example"
+               ]
+            },
+            {
+               "group":"Troubleshooting",
+               "pages":[
+                  "web-hosting/other/troubleshooting/troubleshooting-example"
+               ]
+            }
+         ]
+      },
 
 
 
-     {
-        "group":"Web Hosting",
-        "pages":[
-           "web-hosting/web-hosting"
-        ]
-     },
-     {
-        "group":"Domains",
-        "pages":[
-           "domains/domains"
-        ]
-     },
-     {
-        "group":"Members Area",
-        "pages":[
-           "members/members"
-        ]
-     },
-     {
-        "group":"How To Guides",
-        "pages":[
-           "how-to/how-to"
-        ]
-     },
-     {
-        "group":"Developer Corner",
-        "pages":[
-           "developers/developers"
-        ]
-     }
-  ]
+      
+      {
+         "group":"Domains",
+         "pages":[
+            "domains/domains"
+         ]
+      },
+      {
+         "group":"Members Area",
+         "pages":[
+            "members/members"
+         ]
+      },
+      {
+         "group":"How To Guides",
+         "pages":[
+            "how-to/how-to"
+         ]
+      },
+      {
+         "group":"Developer Corner",
+         "pages":[
+            "developers/developers"
+         ]
+      }
+   ]
 }
