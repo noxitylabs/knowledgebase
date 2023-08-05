@@ -1,236 +1,246 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Noxity Knowledgebase",
-  "logo": {
-    "dark": "/logo/light.png",
-    "light": "/logo/dark.png"
+  "$schema":"https://mintlify.com/schema.json",
+  "name":"Noxity Knowledgebase",
+  "logo":{
+     "dark":"/logo/light.png",
+     "light":"/logo/dark.png"
   },
-  "favicon": "/logo/favicon.png",
-  "colors": {
-    "primary": "#dd2249",
-    "light": "#dd2249",
-    "dark": "#0D001D",
-    "background": {
-      "dark": "#090014"
-    },
-    "anchors": {
-      "from": "#dd2249",
-      "to": "#dd2249"
-    }
+  "favicon":"/logo/favicon.png",
+  "colors":{
+     "primary":"#dd2249",
+     "light":"#dd2249",
+     "dark":"#0D001D",
+     "background":{
+        "dark":"#090014"
+     },
+     "anchors":{
+        "from":"#dd2249",
+        "to":"#dd2249"
+     }
   },
-  "topbarCtaButton": {
-    "name": "Website",
-    "url": "https://noxity.io"
+  "topbarCtaButton":{
+     "name":"Website",
+     "url":"https://noxity.io"
   },
-  "tabs": [
-    {
-      "name": "Virtual Servers",
-      "url": "virtual-servers"
-    },
-    {
-      "name": "Web Hosting",
-      "url": "web-hosting"
-    },
-    {
-      "name": "Domains",
-      "url": "domains"
-    },
-    {
-      "name": "Members Area",
-      "url": "members"
-    },
-    {
-      "name": "How To Guides",
-      "url": "how-to"
-    },
-    {
-      "name": "Developer Corner",
-      "url": "developers"
-    }
+  "tabs":[
+     {
+        "name":"Virtual Servers",
+        "url":"virtual-servers"
+     },
+     {
+        "name":"Web Hosting",
+        "url":"web-hosting"
+     },
+     {
+        "name":"Domains",
+        "url":"domains"
+     },
+     {
+        "name":"Members Area",
+        "url":"members"
+     },
+     {
+        "name":"How To Guides",
+        "url":"how-to"
+     },
+     {
+        "name":"Developer Corner",
+        "url":"developers"
+     }
   ],
-  "anchors": [
-    {
-      "name": "Knowledgebase",
-      "icon": "book-open-cover",
-      "url": "https://help.noxity.io"
-    },
-    {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://discord.noxity.io"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://blog.noxity.io"
-    },
-    {
-      "name": "Status Page",
-      "icon": "signal",
-      "url": "https://status.noxity.io"
-    },
-    {
-      "name": "Support",
-      "icon": "circle-question",
-      "url": "https://noxity.io/support"
-    }
+  "anchors":[
+     {
+        "name":"Knowledgebase",
+        "icon":"book-open-cover",
+        "url":"https://help.noxity.io"
+     },
+     {
+        "name":"Community",
+        "icon":"discord",
+        "url":"https://discord.noxity.io"
+     },
+     {
+        "name":"Blog",
+        "icon":"newspaper",
+        "url":"https://blog.noxity.io"
+     },
+     {
+        "name":"Status Page",
+        "icon":"signal",
+        "url":"https://status.noxity.io"
+     },
+     {
+        "name":"Support",
+        "icon":"circle-question",
+        "url":"https://noxity.io/support"
+     }
   ],
+  "navigation":[
+     {
+        "group":"Get Started",
+        "pages":[
+           "introduction"
+        ]
+     },
+     {
+        "group":"Essentials",
+        "pages":[
+           "essentials/markdown",
+           "essentials/code",
+           "essentials/images",
+           "essentials/settings",
+           "essentials/navigation"
+        ]
+     },
 
 
 
 
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": ["introduction"]
-    },
-    {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
-    },
-
-
-
-
-    {
-      "group" : "Fusion Control Panel",
-      "pages" : [
-          "virtual-servers/virtual-servers",
-          {
-              "group" : "Server Management",
-              "pages" : [
-                   {
-                       "group" : "Basic Actions",
-                       "pages" : [
-                             "page-3", "page-4"
-                       ]
-                   },
-                   {
-                    "group" : "Media Settings",
-                    "pages" : [
-                          "page-3", "page-4"
-                    ]
-                   },
-                   {
-                    "group" : "Backup & Recovery Center",
-                    "pages" : [
-                          "page-3", "page-4"
-                    ]
-                   },
-                   {
-                    "group" : "Virtual Server Settings",
-                    "pages" : [
-                          "page-3", "page-4"
-                    ]
-                   },
-                   {
-                    "group" : "Network Management",
-                    "pages" : [
-                          "page-3", "page-4"
-                    ]
-                   },
-                   {
-                    "group" : "Storage Settings",
-                    "pages" : [
-                          "page-3", "page-4"
-                    ]
-                   }
-              ]
-          },
-          {
-            "group" : "Sharing Portal",
-                "pages" : [
-                            "page-3", "page-4"
-                          ]
-          },
-          {
-          "group" : "Profile Management",
-              "pages" : [
-                   {
-                       "group" : "SSH Keys",
-                       "pages" : [
-                             "page-3", "page-4"
-                       ]
-                   },
-                   {
-                    "group" : "Security Center",
-                    "pages" : [
-                          "page-3", "page-4"
-                    ]
-                   }
-              ]
-            }
-      ]
- },
- {
-  "group" : "Other",
-      "pages" : [
-        "virtual-servers/virtual-servers",
+     {
+        "group":"Fusion Control Panel",
+        "pages":[
+           "virtual-servers/overview",
            {
-               "group" : "Features",
-               "pages" : [
-                     "virtual-servers", "page-4"
-               ]
+              "group":"Server Management",
+              "pages":[
+                 {
+                    "group":"Basic Actions",
+                    "pages":[
+                       "virtual-servers/fusion/server-management/basic-actions/basic-actions-example"
+                    ]
+                 },
+                 {
+                    "group":"Media Settings",
+                    "pages":[
+                       "virtual-servers/fusion/server-management/basic-actions/basic-actions-example"
+                    ]
+                 },
+                 {
+                    "group":"Backup & Recovery Center",
+                    "pages":[
+                       "virtual-servers/fusion/server-management/backup-recovery-center/backup-recovery-center-example"
+                    ]
+                 },
+                 {
+                    "group":"Virtual Server Settings",
+                    "pages":[
+                       "virtual-servers/fusion/server-management/virtual-server-settings/virtual-server-settings-example"
+                    ]
+                 },
+                 {
+                    "group":"Network Management",
+                    "pages":[
+                       "virtual-servers/fusion/server-management/network-management/network-management-example"
+                    ]
+                 },
+                 {
+                    "group":"Storage Settings",
+                    "pages":[
+                       "virtual-servers/fusion/server-management/storage-settings/storage-settings-example"
+                    ]
+                 }
+              ]
            },
            {
-            "group" : "FAQ",
-            "pages" : [
-                     "virtual-servers", "page-4"
-            ]
-          },
+              "group":"Sharing Portal",
+              "pages":[
+                 "virtual-servers/fusion/sharing-portal/sharing-portal-example"
+              ]
+           },
            {
-            "group" : "Troubleshooting & Common Errors",
-            "pages" : [
-                     "virtual-servers", "page-4"
-            ]
+              "group":"Profile Management",
+              "pages":[
+                 {
+                    "group":"SSH Keys",
+                    "pages":[
+                       "virtual-servers/fusion/profile-management/security-center/security-center-example"
+                    ]
+                 },
+                 {
+                    "group":"Security Center",
+                    "pages":[
+                       "virtual-servers/fusion/profile-management/ssh-keys/ssh-keys-example"
+                    ]
+                 }
+              ]
            }
-      ]
-    },
+        ]
+     },
+     {
+        "group":"Other",
+        "pages":[
+           {
+              "group":"Features",
+              "pages":[
+                 "virtual-servers/other/features/features-example"
+              ]
+           },
+           {
+            "group":"FAQ",
+            "pages":[
+              "virtual-servers/other/faq/faq-example"
+            ]
+           },
+           {
+              "group":"Troubleshooting",
+              "pages":[
+                "virtual-servers/other/troubleshooting/troubleshooting-example"
+              ]
+           }
+        ]
+     },
 
 
 
 
-    
 
-    {
-      "group": "Web Hosting",
-      "pages": ["web-hosting/web-hosting"]
-    },
-    {
-      "group": "Domains",
-      "pages": ["domains/domains"]
-    },
-    {
-      "group": "Members Area",
-      "pages": ["members/members"]
-    },
-    {
-      "group": "How To Guides",
-      "pages": ["how-to/how-to"]
-    },
-    {
-      "group": "Developer Corner",
-      "pages": ["developers/developers"]
-    }
+
+     {
+        "group":"Web Hosting",
+        "pages":[
+           "web-hosting/web-hosting"
+        ]
+     },
+     {
+        "group":"Domains",
+        "pages":[
+           "domains/domains"
+        ]
+     },
+     {
+        "group":"Members Area",
+        "pages":[
+           "members/members"
+        ]
+     },
+     {
+        "group":"How To Guides",
+        "pages":[
+           "how-to/how-to"
+        ]
+     },
+     {
+        "group":"Developer Corner",
+        "pages":[
+           "developers/developers"
+        ]
+     }
   ],
-
-
-  
-  "footerSocials": {
-    "twitter": "https://twitter.com/noxityio",
-    "youtube": "https://www.youtube.com/@noxityio",
-    "github": "https://github.com/noxitylabs/",
-    "instagram": "https://www.instagram.com/noxityio/",
-    "linkedin": "https://www.linkedin.com/company/noxity"
+  "footerSocials":{
+     "twitter":"https://twitter.com/noxityio",
+     "youtube":"https://www.youtube.com/@noxityio",
+     "github":"https://github.com/noxitylabs/",
+     "instagram":"https://www.instagram.com/noxityio/",
+     "linkedin":"https://www.linkedin.com/company/noxity"
   },
-  "modeToggle": {
-    "default": "dark",
-    "isHidden": true
-},
-  "feedback": {
-    "thumbsRating": true
+  "modeToggle":{
+     "default":"dark",
+     "isHidden":true
   },
-  "primaryTab": {
-    "name": "Home"
-}
+  "feedback":{
+     "thumbsRating":true
+  },
+  "primaryTab":{
+     "name":"Home"
+  }
 }
