@@ -22,12 +22,6 @@
     "type": "github",
     "url": "https://github.com/noxitylabs/knowledgebase"
   },
-  "topbarLinks": [
-    {
-      "name": "Website",
-      "url": "https://noxity.io"
-    }
-  ],
   "tabs":[
      {
         "name":"Virtual Servers",
@@ -56,8 +50,8 @@
   ],
   "anchors":[
      {
-        "name":"Knowledgebase",
-        "icon":"book-open-cover",
+        "name":"Website",
+        "icon":"raygun",
         "url":"https://help.noxity.io"
      },
      {
@@ -76,7 +70,7 @@
         "url":"https://status.noxity.io"
      },
      {
-      "name":"Link Tree",
+      "name":"Links Collection",
       "icon":"bullseye-pointer",
       "url":"https://tree.noxity.io"
      },
