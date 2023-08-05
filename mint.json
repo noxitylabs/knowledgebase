@@ -26,6 +26,26 @@
     {
       "name": "Virtual Servers",
       "url": "virtual-servers"
+    },
+    {
+      "name": "Web Hosting",
+      "url": "web-hosting"
+    },
+    {
+      "name": "Domains",
+      "url": "domains"
+    },
+    {
+      "name": "Members Area",
+      "url": "members"
+    },
+    {
+      "name": "How To Guides",
+      "url": "how-to"
+    },
+    {
+      "name": "Developer Corner",
+      "url": "developers"
     }
   ],
   "anchors": [
@@ -58,7 +78,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": ["quick-start"]
     },
     {
       "group": "Essentials",
@@ -67,6 +87,26 @@
     {
       "group": "Virtual Servers",
       "pages": ["virtual-servers/virtual-servers"]
+    },
+    {
+      "group": "Web Hosting",
+      "pages": ["web-hosting/web-hosting"]
+    },
+    {
+      "group": "Domains",
+      "pages": ["domains/domains"]
+    },
+    {
+      "group": "Members Area",
+      "pages": ["members/members"]
+    },
+    {
+      "group": "How To Guides",
+      "pages": ["how-to/how-to"]
+    },
+    {
+      "group": "Developer Corner",
+      "pages": ["developers/developers"]
     }
   ],
   "footerSocials": {
