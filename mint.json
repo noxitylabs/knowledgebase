@@ -24,8 +24,8 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Virtual Servers",
+      "url": "virtual-servers"
     }
   ],
   "anchors": [
@@ -65,17 +65,8 @@
       "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/karkoli"]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "Virtual Servers",
+      "pages": ["virtual-servers/virtual-servers"]
     }
   ],
   "footerSocials": {
