@@ -165,6 +165,7 @@
  {
   "group" : "Other",
       "pages" : [
+        "virtual-servers/virtual-servers",
            {
                "group" : "Features",
                "pages" : [
