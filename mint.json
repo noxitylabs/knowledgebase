@@ -646,12 +646,14 @@
       },
       {
          "group":"Client API",
+         "icon": "webhook",
          "pages":[
             "developers/client-api/client-api-example"
          ]
       },
       {
          "group":"Release Notes",
+         "icon": "note",
          "pages":[
             "developers/release-notes/release-notes-example"
          ]
