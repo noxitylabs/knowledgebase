@@ -658,32 +658,38 @@
             "how-to/how-to-example",
             {
                "group": "Operating Systems",
+               "icon": "planet-ringed",
                "pages": [
                   "how-to/operating-systems/operating-systems-example",
                   {
                      "group": "Debian",
+                     "icon": "debian",
                      "pages": [
                         "how-to/operating-systems/debian/debian-example"
                      ]
                   },
                   {
                      "group": "RHEL",
+                     "icon": "redhat",
                      "pages": [
                         "how-to/operating-systems/rhel/rhel-example",
                         {
                            "group":"AlmaLinux",
+                           "icon": "clover",
                            "pages": [
                               "how-to/operating-systems/rhel/alma/alma-example"
                            ]
                         },
                         {
                            "group":"Rocky Linux",
+                           "icon": "mountain",
                            "pages": [
                               "how-to/operating-systems/rhel/rocky/rocky-example"
                            ]
                         },
                         {
                            "group":"CentOS",
+                           "icon": "centos",
                            "pages": [
                               "how-to/operating-systems/rhel/centos/centos-example"
                            ]
@@ -692,12 +698,14 @@
                   },
                   {
                      "group": "Ubuntu",
+                     "icon": "ubuntu",
                      "pages": [
                         "how-to/operating-systems/ubuntu/ubuntu-example"
                      ]
                   },
                   {
                      "group": "Windows",
+                     "icon": "windows",
                      "pages": [
                         "how-to/operating-systems/windows/windows-example"
                      ]
@@ -706,16 +714,19 @@
             },
             {
                "group": "Reference Guides",
+               "icon": "compass",
                "pages": [
                   "how-to/reference-guides/reference-guides-example",
                   {
                      "group": "Best Practices",
+                     "icon": "thumbs-up",
                      "pages": [
                         "how-to/reference-guides/best-practices/best-practices-example"
                      ]
                   },
                   {
                      "group": "General guides",
+                     "icon": "space-station-moon-construction",
                      "pages": [
                         "how-to/reference-guides/general/general-example"
                      ]
