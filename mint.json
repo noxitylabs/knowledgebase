@@ -662,13 +662,13 @@
             {
                "group": "Transferring to Noxity",
                "pages": [
-                  "domains/transfers/inbound/inbound-example"
+                  "domains/transfers/to-noxity/to-noxity-example"
                ]
             },
             {
                "group": "Transferring away from Noxity",
                "pages": [
-                  "domains/transfers/outbound/outbound-example"
+                  "domains/transfers/from-noxity/from-noxity-example"
                ]
             }
          ]
