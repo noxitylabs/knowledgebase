@@ -28,10 +28,10 @@ To get started message project leader on Discord to be added to the knowledgebas
 
 ### Editing the Knowledgebase
 
-1. You always push to your own branch. It will be your firstname-lastname.
-2. Create a new branch from the `main` branch.
+1. You always push to **writing** branch.
+2. If doesn't exist already, create a **writing** branch from the `main` branch.
 3. Make your changes to the knowledgebase.
-4. Commit your changes to **your** branch.
+4. Commit your changes to **writing** branch.
 5. Create a pull request to the `main` branch.
 6. Wait for a project maintainer to review your changes.
 
@@ -47,6 +47,7 @@ To get started message project leader on Discord to be added to the knowledgebas
 - Find nice gradient for anchor icon links
 - Implement "raiseIssue" and "suggestEdit" buttons + setup GitHub to allow these requests
 - Fix purpleish glow on button hover and search popup. Replace it with Noxity red
+- Since local changes aren't working (needs to be fixed by Mintlify) setup another instance for development and writing.
 #### Needs official implementation
 - Fix card links opening in a new tab
 - Add a "back to top" button
