@@ -738,17 +738,14 @@
          ]
       },
       {
-         "group":"Client API",
-         "icon": "webhook",
-         "pages":[
-            "developers/client-api/client-api-example"
-         ]
-      },
-      {
          "group":"Release Notes",
-         "icon": "note",
          "pages":[
-            "developers/release-notes/release-notes-example"
+            {
+               "group": "2023",
+               "pages": [
+                  "release-notes/2023/2023-example"
+               ]
+            }
          ]
       }
    ]
