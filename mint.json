@@ -662,7 +662,7 @@
                "pages": [
                   {
                      "group": "Debian",
-                     "icon": "debian",
+                     "icon": "linux",
                      "pages": [
                         "how-to/operating-systems/debian/debian-example"
                      ]
