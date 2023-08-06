@@ -644,22 +644,16 @@
             }
          ]
       },
-{
-         "group":"Domains",
-         "pages":[
-            "domains/domains-example"
-         ]
-},
-
-
-
-
-
-
       {
          "group":"Members Area",
          "pages":[
             "members/members"
+         ]
+      },
+      {
+         "group":"Domains",
+         "pages":[
+            "domains/domains-example"
          ]
       },
       {
