@@ -104,7 +104,7 @@
          "pages":[
             "introduction",
             "contributing",
-            "noxity"
+            "team"
          ]
       },
       {
@@ -645,11 +645,19 @@
          ]
       },
       {
-         "group":"Domains",
+         "group":"Client API",
          "pages":[
-            "domains/domains"
+            "developers/client-api/client-api-example"
          ]
       },
+      {
+         "group":"Release Notes",
+         "pages":[
+            "developers/release-notes/release-notes-example"
+         ]
+      },
+
+
       {
          "group":"Members Area",
          "pages":[
