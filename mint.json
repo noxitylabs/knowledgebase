@@ -653,7 +653,114 @@
       {
          "group":"Domains",
          "pages":[
-            "domains/domains-example"
+            "domains/domains-example",
+            {
+               "group": "Registrations",
+               "pages": [
+                  "domains/registrations/registrations-example",
+                  {  
+                     "group":"TLDs",
+                     "pages":[
+                        "domains/registrations/tlds/tlds-example"
+                     ]
+                     },
+                  {  
+                  "group":"Contact Details",
+                  "pages":[
+                     "domains/registrations/contact-details/contact-details-example"
+                  ]
+                  }
+               ]
+            },
+            {
+               "group": "Renewals",
+               "pages": [
+                  "domains/renewals/renewals-example"
+               ]
+            },
+            {
+               "group": "Transfers",
+               "pages": [
+                  {  
+                     "group":"Inbound",
+                     "pages":[
+                        "domains/transfers/inbound/inbound-example"
+                     ]
+                     },
+                  {  
+                  "group":"Outbound",
+                  "pages":[
+                     "domains/transfers/inbound/outbound-example"
+                  ]
+                  }
+               ]
+            },
+            {
+               "group": "Domain Management",
+               "pages": [
+                  "domains/management/management-example",
+                  {
+                     "group": "NS Management",
+                     "pages": [
+                       {
+                        "group": "In house",
+                        "pages": [
+                           "domains/management/ns/in-house/in-house-example"
+                        ]
+                       },
+                       {
+                        "group": "External",
+                        "pages": [
+                           "domains/management/ns/external/external-example"
+                        ]
+                       }
+                     ]
+                  }
+               ]
+            },
+            {
+               "group": "Freebies",
+               "pages": [
+                  {
+                     "group": "Free DNS",
+                     "pages": [
+                        "domains/freebies/dns/dns-example"
+                     ]
+                  },
+                  {
+                     "group": "Free Email Inbox Hosting",
+                     "pages": [
+                        "domains/freebies/inbox/inbox-example"
+                     ]
+                  }
+               ]
+            }            
+         ]
+      },
+      {
+         "group":"Other",
+         "pages":[
+            {
+               "group":"Features",
+               "icon": "flask-gear",
+               "pages":[
+                  "domains/other/features/features-example"
+               ]
+            },
+            {
+               "group":"FAQ",
+               "icon": "block-question",
+               "pages":[
+                  "domains/other/faq/faq-example"
+               ]
+            },
+            {
+               "group":"Troubleshooting",
+               "icon": "toolbox",
+               "pages":[
+                  "domains/other/troubleshooting/troubleshooting-example"
+               ]
+            }
          ]
       },
       {
