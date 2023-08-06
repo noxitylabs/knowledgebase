@@ -644,20 +644,6 @@
             }
          ]
       },
-      {
-         "group":"Client API",
-         "icon": "webhook",
-         "pages":[
-            "developers/client-api/client-api-example"
-         ]
-      },
-      {
-         "group":"Release Notes",
-         "icon": "note",
-         "pages":[
-            "developers/release-notes/release-notes-example"
-         ]
-      },
 
 
       {
@@ -676,6 +662,20 @@
          "group":"Developer Corner",
          "pages":[
             "developers/developers"
+         ]
+      },
+      {
+         "group":"Client API",
+         "icon": "webhook",
+         "pages":[
+            "developers/client-api/client-api-example"
+         ]
+      },
+      {
+         "group":"Release Notes",
+         "icon": "note",
+         "pages":[
+            "developers/release-notes/release-notes-example"
          ]
       }
    ]
