@@ -681,6 +681,23 @@
          ]
       },
       {
+         "group": "Transfers",
+         "pages": [
+            {
+               "group": "Transferring to Noxity",
+               "pages": [
+                  "domains/transfers/inbound/inbound-example"
+               ]
+            },
+            {
+               "group": "Transferring away from Noxity",
+               "pages": [
+                  "domains/transfers/outbound/outbound-example"
+               ]
+            }
+         ]
+      },
+      {
          "group": "Domain Management",
          "pages": [
             "domains/management/management-example",
