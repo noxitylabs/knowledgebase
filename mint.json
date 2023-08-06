@@ -660,7 +660,6 @@
                "group": "Operating Systems",
                "icon": "planet-ringed",
                "pages": [
-                  "how-to/operating-systems/operating-systems-example",
                   {
                      "group": "Debian",
                      "icon": "debian",
@@ -716,7 +715,6 @@
                "group": "Reference Guides",
                "icon": "compass",
                "pages": [
-                  "how-to/reference-guides/reference-guides-example",
                   {
                      "group": "Best Practices",
                      "icon": "thumbs-up",
