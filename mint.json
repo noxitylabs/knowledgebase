@@ -657,23 +657,6 @@
          ]
       },
       {
-         "group": "Transfers",
-         "pages": [
-            {
-               "group": "Transferring to Noxity",
-               "pages": [
-                  "domains/transfers/to-noxity/to-noxity-example"
-               ]
-            },
-            {
-               "group": "Transferring away from Noxity",
-               "pages": [
-                  "domains/transfers/from-noxity/from-noxity-example"
-               ]
-            }
-         ]
-      },
-      {
          "group": "Registrations",
          "pages": [
             "domains/registrations/registrations-example",
