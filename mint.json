@@ -655,7 +655,80 @@
       {
          "group":"How To Guides",
          "pages":[
-            "how-to/how-to"
+            "how-to/how-to-example",
+            {
+               "group": "Operating Systems",
+               "pages": [
+                  "how-to/operating-systems/operating-systems-example",
+                  {
+                     "group": "Debian",
+                     "pages": [
+                        "how-to/operating-systems/debian/debian-example"
+                     ]
+                  },
+                  {
+                     "group": "RHEL",
+                     "pages": [
+                        "how-to/operating-systems/rhel/rhel-example",
+                        {
+                           "group":"AlmaLinux",
+                           "pages": [
+                              "how-to/operating-systems/rhel/alma/alma-example"
+                           ]
+                        },
+                        {
+                           "group":"Rocky Linux",
+                           "pages": [
+                              "how-to/operating-systems/rhel/rocky/rocky-example"
+                           ]
+                        },
+                        {
+                           "group":"CentOS",
+                           "pages": [
+                              "how-to/operating-systems/rhel/centos/centos-example"
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "group": "Ubuntu",
+                     "pages": [
+                        "how-to/operating-systems/ubuntu/ubuntu-example"
+                     ]
+                  },
+                  {
+                     "group": "Windows",
+                     "pages": [
+                        "how-to/operating-systems/windows/windows-example"
+                     ]
+                  }
+               ]
+            },
+            {
+               "group": "Reference Guides",
+               "pages": [
+                  "how-to/reference-guides/reference-guides-example",
+                  {
+                     "group": "Best Practices",
+                     "pages": [
+                        "how-to/reference-guides/best-practices/best-practices-example"
+                     ]
+                  },
+                  {
+                     "group": "General guides",
+                     "pages": [
+                        "how-to/reference-guides/general/general-example"
+                     ]
+                  },
+                  {
+                     "group":"Troubleshooting",
+                     "icon": "toolbox",
+                     "pages":[
+                        "how-to/reference-guides/troubleshooting/troubleshooting-example"
+                     ]
+                  }
+               ]
+            }
          ]
       },
       {
