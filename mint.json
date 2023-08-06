@@ -681,26 +681,15 @@
          ]
       },
       {
-         "group": "Transfers",
-         "pages": [
-            {  
-               "group":"Inbound",
-               "pages":[
-                  "domains/transfers/inbound/inbound-example"
-               ]
-            },
-            {  
-            "group":"Outbound",
-            "pages":[
-               "domains/transfers/outbound/outbound-example"
-            ]
-            }
-         ]
-      },
-      {
          "group": "Domain Management",
          "pages": [
             "domains/management/management-example",
+            {
+               "group": "Domain Panel",
+               "pages": [
+                  "domains/management/panel/panel-example"
+               ]
+            },
             {
                "group": "NS Management",
                "pages": [
