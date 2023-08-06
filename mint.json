@@ -644,6 +644,16 @@
             }
          ]
       },
+{
+         "group":"Domains",
+         "pages":[
+            "domains/domains-example"
+         ]
+},
+
+
+
+
 
 
       {
@@ -671,7 +681,6 @@
                      "group": "RHEL",
                      "icon": "redhat",
                      "pages": [
-                        "how-to/operating-systems/rhel/rhel-example",
                         {
                            "group":"AlmaLinux",
                            "icon": "clover",
