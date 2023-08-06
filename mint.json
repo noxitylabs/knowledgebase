@@ -688,11 +688,11 @@
                "pages":[
                   "domains/transfers/inbound/inbound-example"
                ]
-               },
+            },
             {  
             "group":"Outbound",
             "pages":[
-               "domains/transfers/inbound/outbound-example"
+               "domains/transfers/outbound/outbound-example"
             ]
             }
          ]
@@ -707,7 +707,7 @@
                  {
                   "group": "In house",
                   "pages": [
-                     "domains/management/ns/in-house/in-house-example"
+                     "domains/management/ns/inhouse/inhouse-example"
                   ]
                  },
                  {
