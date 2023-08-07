@@ -675,6 +675,23 @@
          ]
       },
       {
+         "group": "Transfers",
+         "pages": [
+            {  
+               "group":"Inbound",
+               "pages":[
+                  "domains/transfers/inbound/inbound-example"
+               ]
+               },
+               {  
+                  "group":"Outbound",
+                  "pages":[
+                     "domains/transfers/outbound/outbound-example"
+                  ]
+                  }
+         ]
+      },
+      {
          "group": "Renewals",
          "pages": [
             "domains/renewals/renewals-example"
