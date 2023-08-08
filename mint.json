@@ -770,6 +770,155 @@
             }
          ]
       },
+
+      {
+         "group":"Members Area",
+         "pages":[
+            "members/members"
+         ]
+      },
+      {
+         "group":"Abuse",
+         "pages":[
+            "members/abuse/abuse-example",
+            {
+               "group":"Abuse",
+               "pages":[
+                  "members/abuse/resource/resource-example"
+               ]
+            },
+            {
+               "group":"Spam",
+               "pages":[
+                  "members/abuse/spam/spam-example"
+               ]
+            },
+            {
+               "group":"Copyright",
+               "pages":[
+                  "members/abuse/copyright/copyright-example"
+               ]
+            }
+         ]
+      },
+      {
+         "group":"Billing",
+         "pages":[
+            {
+               "group":"Cashback",
+               "pages":[
+                  "members/billing/cashback/cashback-example"
+               ]
+            },
+            {
+               "group":"Invoices",
+               "pages":[
+                  "members/billing/invoices/invoices-example"
+               ]
+            },
+            {
+               "group":"Ordering",
+               "pages":[
+                  "members/billing/ordering/ordering-example"
+               ]
+            },
+            {
+               "group":"Payment methods",
+               "pages":[
+                  {
+                     "group": "Stripe",
+                     "pages": [
+                        "members/billing/payment-methods/stripe/stripe-example"
+                     ]
+                  },
+                  {
+                     "group": "PayPal",
+                     "pages": [
+                        "members/billing/payment-methods/paypal/paypal-example"
+                     ]
+                  },
+                  {
+                     "group": "Crypto",
+                     "pages": [
+                        "members/billing/payment-methods/coinbase/coinbase-example"
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "group":"Partners",
+         "pages":[
+            "members/partners/partners-example",
+            {
+               "group":"Amabassadors",
+               "pages":[
+                  "members/partners/ambassadors/ambassadors-example"
+               ]
+            },
+            {
+               "group":"Partnerships",
+               "pages":[
+                  "members/partners/parnerships/partnerships-example"
+               ]
+            },
+            {
+               "group":"Affiliates",
+               "pages":[
+                  "members/partners/affiliates/affiliates-example"
+               ]
+            }
+         ]
+      },
+      {
+         "group":"Presales",
+         "pages":[
+            "members/presales/presales-example"
+         ]
+      },
+      {
+         "group":"Refunds",
+         "pages":[
+            "members/refunds/refunds-example"
+         ]
+      },
+      {
+         "group":"Support",
+         "pages":[
+            {
+               "group": "Tickets",
+               "pages": [
+                  "members/support/tickets/tickets-example"
+               ]
+            },
+            {
+               "group": "Live Chat",
+               "pages": [
+                  "members/support/livechat/livechat-example"
+               ]
+            }
+         ]
+      },
+      {
+         "group":"Other",
+         "pages":[
+            {
+               "group":"FAQ",
+               "icon": "block-question",
+               "pages":[
+                  "members/other/faq/faq-example"
+               ]
+            },
+            {
+               "group":"Troubleshooting",
+               "icon": "toolbox",
+               "pages":[
+                  "members/other/troubleshooting/troubleshooting-example"
+               ]
+            }
+         ]
+      },
       {
          "group":"How To Guides",
          "pages":[
