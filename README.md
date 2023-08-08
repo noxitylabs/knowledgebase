@@ -45,7 +45,6 @@ To get started message project leader on Discord to be added to the knowledgebas
 #### In progress
 - Change background to something more dynamic
 - Find nice gradient for anchor icon links
-- Implement "raiseIssue" and "suggestEdit" buttons + setup GitHub to allow these requests
 - Fix purpleish glow on button hover and search popup. Replace it with Noxity red
 - Since local changes aren't working (needs to be fixed by Mintlify) setup another instance for development and writing.
 #### Needs official implementation
@@ -57,6 +56,7 @@ To get started message project leader on Discord to be added to the knowledgebas
 - Add github link to the knolwedgebase in the header - DONE ✅
 - Open source the knowledgebase system - DONE ✅
 - Add icons to sidebar links - DONE ✅
+- Implement "raiseIssue" + setup GitHub to allow these requests - DONE ✅
 
 ---
 ## Ideas
