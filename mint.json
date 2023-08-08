@@ -773,22 +773,26 @@
       },
       {
          "group":"Abuse",
+         "icon": "bacterium",
          "pages":[
             "members/abuse/abuse-example",
             {
-               "group":"Abuse",
+               "group":"Resource Abuse",
+               "icon": "gauge-max",
                "pages":[
                   "members/abuse/resource/resource-example"
                ]
             },
             {
                "group":"Spam",
+               "icon": "person-harassing",
                "pages":[
                   "members/abuse/spam/spam-example"
                ]
             },
             {
                "group":"Copyright",
+               "icon": "file-certificate",
                "pages":[
                   "members/abuse/copyright/copyright-example"
                ]
@@ -800,39 +804,46 @@
          "pages":[
             {
                "group":"Cashback",
+               "icon": "money-from-bracket",
                "pages":[
                   "members/billing/cashback/cashback-example"
                ]
             },
             {
                "group":"Invoices",
+               "icon": "file-invoice",
                "pages":[
                   "members/billing/invoices/invoices-example"
                ]
             },
             {
                "group":"Ordering",
+               "icon": "cart-shopping",
                "pages":[
                   "members/billing/ordering/ordering-example"
                ]
             },
             {
                "group":"Payment methods",
+               "icon": "cash-register",
                "pages":[
                   {
                      "group": "Stripe",
+                     "icon": "cc-stripe",
                      "pages": [
                         "members/billing/payment-methods/stripe/stripe-example"
                      ]
                   },
                   {
                      "group": "PayPal",
+                     "icon": "cc-paypal",
                      "pages": [
                         "members/billing/payment-methods/paypal/paypal-example"
                      ]
                   },
                   {
                      "group": "Crypto",
+                     "icon": "bitcoin",
                      "pages": [
                         "members/billing/payment-methods/coinbase/coinbase-example"
                      ]
@@ -847,18 +858,21 @@
             "members/partners/partners-example",
             {
                "group":"Amabassadors",
+               "icon": "building-flag",
                "pages":[
                   "members/partners/ambassadors/ambassadors-example"
                ]
             },
             {
                "group":"Partnerships",
+               "icon": "handshake",
                "pages":[
                   "members/partners/partnerships/partnerships-example"
                ]
             },
             {
                "group":"Affiliates",
+               "icon": "rectangle-ad",
                "pages":[
                   "members/partners/affiliates/affiliates-example"
                ]
@@ -867,27 +881,32 @@
       },
       {
          "group":"Presales",
+         "icon": "messages-dollar",
          "pages":[
             "members/presales/presales-example"
          ]
       },
       {
          "group":"Refunds",
+         "icon": "money-check-dollar-pen",
          "pages":[
             "members/refunds/refunds-example"
          ]
       },
       {
          "group":"Support",
+         "icon": "circle-info",
          "pages":[
             {
                "group": "Tickets",
+               "icon": "mailbox-flag-up",
                "pages": [
                   "members/support/tickets/tickets-example"
                ]
             },
             {
                "group": "Live Chat",
+               "icon": "comments",
                "pages": [
                   "members/support/livechat/livechat-example"
                ]
