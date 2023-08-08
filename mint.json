@@ -653,16 +653,18 @@
       },
       {
          "group": "Registrations",
+         "icon": "registered",
          "pages": [
-            "domains/registrations/registrations-example",
             {  
                "group":"TLDs",
+               "icon": "lines-leaning",
                "pages":[
                   "domains/registrations/tlds/tlds-example"
                ]
                },
             {  
             "group":"Contact Details",
+            "icon": "address-book",
             "pages":[
                "domains/registrations/contact-details/contact-details-example"
             ]
@@ -671,15 +673,18 @@
       },
       {
          "group": "Transfers",
+         "icon": "truck-fast",
          "pages": [
             {  
                "group":"Inbound",
+               "icon": "truck-bolt",
                "pages":[
                   "domains/transfers/inbound/inbound-example"
                ]
                },
                {  
                   "group":"Outbound",
+                  "icon": "truck-arrow-right",
                   "pages":[
                      "domains/transfers/outbound/outbound-example"
                   ]
@@ -688,31 +693,37 @@
       },
       {
          "group": "Renewals",
+         "icon": "arrows-rotate",
          "pages": [
             "domains/renewals/renewals-example"
          ]
       },
       {
          "group": "Domain Management",
+         "icon": "list-check",
          "pages": [
             "domains/management/management-example",
             {
                "group": "Domain Panel",
+               "icon": "bars-progress",
                "pages": [
                   "domains/management/panel/panel-example"
                ]
             },
             {
                "group": "NS Management",
+               "icon": "snake",
                "pages": [
                  {
                   "group": "In house",
+                  "icon": "house",
                   "pages": [
                      "domains/management/ns/inhouse/inhouse-example"
                   ]
                  },
                  {
                   "group": "External",
+                  "icon": "bench-tree",
                   "pages": [
                      "domains/management/ns/external/external-example"
                   ]
@@ -726,12 +737,14 @@
          "pages": [
             {
                "group": "Free DNS",
+               "icon": "input-text",
                "pages": [
                   "domains/freebies/dns/dns-example"
                ]
             },
             {
                "group": "Free Email Inbox Hosting",
+               "icon": "envelopes-bulk",
                "pages": [
                   "domains/freebies/inbox/inbox-example"
                ]
