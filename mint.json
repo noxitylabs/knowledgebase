@@ -646,12 +646,6 @@
          ]
       },
       {
-         "group":"Members Area",
-         "pages":[
-            "members/members"
-         ]
-      },
-      {
          "group":"Domains",
          "pages":[
             "domains/domains-example"           
@@ -860,7 +854,7 @@
             {
                "group":"Partnerships",
                "pages":[
-                  "members/partners/parnerships/partnerships-example"
+                  "members/partners/partnerships/partnerships-example"
                ]
             },
             {
