@@ -149,7 +149,7 @@
         "tab": "Web Hosting",
         "groups": [
           {
-            "group": "cPanel Control Panel",
+            "group": "cPanel Control Panels",
             "pages": [
               "web-hosting/overview",
               {
