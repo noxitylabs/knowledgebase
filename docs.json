@@ -1007,19 +1007,19 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
-              "contributing",
-              "team"
+              "si/introduction",
+              "si/contributing",
+              "si/team"
             ]
           },
           {
             "group": "Essentials",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation"
+              "si/essentials/markdown",
+              "si/essentials/code",
+              "si/essentials/images",
+              "si/essentials/settings",
+              "si/essentials/navigation"
             ]
           }
         ]
@@ -1030,7 +1030,7 @@
           {
             "group": "Fusion Control Panel",
             "pages": [
-              "virtual-servers/overview",
+              "si/virtual-servers/overview",
               {
                 "group": "Server Management",
                 "icon": "tower-control",
@@ -1039,42 +1039,42 @@
                     "group": "Basic Actions",
                     "icon": "sliders-simple",
                     "pages": [
-                      "virtual-servers/fusion/server-management/basic-actions/basic-actions-example"
+                      "si/virtual-servers/fusion/server-management/basic-actions/basic-actions-example"
                     ]
                   },
                   {
                     "group": "Media Settings",
                     "icon": "disc-drive",
                     "pages": [
-                      "virtual-servers/fusion/server-management/media-settings/media-settings-example"
+                      "si/virtual-servers/fusion/server-management/media-settings/media-settings-example"
                     ]
                   },
                   {
                     "group": "Backup & Recovery Center",
                     "icon": "clock-rotate-left",
                     "pages": [
-                      "virtual-servers/fusion/server-management/backup-recovery-center/backup-recovery-center-example"
+                      "si/virtual-servers/fusion/server-management/backup-recovery-center/backup-recovery-center-example"
                     ]
                   },
                   {
                     "group": "Virtual Server Settings",
                     "icon": "screwdriver-wrench",
                     "pages": [
-                      "virtual-servers/fusion/server-management/virtual-server-settings/virtual-server-settings-example"
+                      "si/virtual-servers/fusion/server-management/virtual-server-settings/virtual-server-settings-example"
                     ]
                   },
                   {
                     "group": "Network Management",
                     "icon": "chart-network",
                     "pages": [
-                      "virtual-servers/fusion/server-management/network-management/network-management-example"
+                      "si/virtual-servers/fusion/server-management/network-management/network-management-example"
                     ]
                   },
                   {
                     "group": "Storage Settings",
                     "icon": "hard-drive",
                     "pages": [
-                      "virtual-servers/fusion/server-management/storage-settings/storage-settings-example"
+                      "si/virtual-servers/fusion/server-management/storage-settings/storage-settings-example"
                     ]
                   }
                 ]
@@ -1083,7 +1083,7 @@
                 "group": "Sharing Portal",
                 "icon": "share",
                 "pages": [
-                  "virtual-servers/fusion/sharing-portal/sharing-portal-example"
+                  "si/virtual-servers/fusion/sharing-portal/sharing-portal-example"
                 ]
               },
               {
@@ -1094,14 +1094,14 @@
                     "group": "SSH Keys",
                     "icon": "key",
                     "pages": [
-                      "virtual-servers/fusion/profile-management/security-center/security-center-example"
+                      "si/virtual-servers/fusion/profile-management/security-center/security-center-example"
                     ]
                   },
                   {
                     "group": "Security Center",
                     "icon": "shield-keyhole",
                     "pages": [
-                      "virtual-servers/fusion/profile-management/ssh-keys/ssh-keys-example"
+                      "si/virtual-servers/fusion/profile-management/ssh-keys/ssh-keys-example"
                     ]
                   }
                 ]
@@ -1115,21 +1115,21 @@
                 "group": "Features",
                 "icon": "flask-gear",
                 "pages": [
-                  "virtual-servers/other/features/features-example"
+                  "si/virtual-servers/other/features/features-example"
                 ]
               },
               {
                 "group": "FAQ",
                 "icon": "block-question",
                 "pages": [
-                  "virtual-servers/other/faq/faq-example"
+                  "si/virtual-servers/other/faq/faq-example"
                 ]
               },
               {
                 "group": "Troubleshooting",
                 "icon": "toolbox",
                 "pages": [
-                  "virtual-servers/other/troubleshooting/troubleshooting-example"
+                  "si/virtual-servers/other/troubleshooting/troubleshooting-example"
                 ]
               }
             ]
@@ -1142,36 +1142,36 @@
           {
             "group": "cPanel Control Panels",
             "pages": [
-              "web-hosting/overview",
+              "si/web-hosting/overview",
               {
                 "group": "File Management",
                 "icon": "cabinet-filing",
                 "pages": [
-                  "web-hosting/cpanel/file-management/file-management-example",
+                  "si/web-hosting/cpanel/file-management/file-management-example",
                   {
                     "group": "FTP & SFTP",
                     "icon": "arrow-up-arrow-down",
                     "pages": [
-                      "web-hosting/cpanel/file-management/ftp-sftp/ftp-sftp-example"
+                      "si/web-hosting/cpanel/file-management/ftp-sftp/ftp-sftp-example"
                     ]
                   },
                   {
                     "group": "Backup Management",
                     "icon": "clock-rotate-left",
                     "pages": [
-                      "web-hosting/cpanel/file-management/backups/backups-example",
+                      "si/web-hosting/cpanel/file-management/backups/backups-example",
                       {
                         "group": "cPanel Backups (Local)",
                         "icon": "cpanel",
                         "pages": [
-                          "web-hosting/cpanel/file-management/backups/local/local-example"
+                          "si/web-hosting/cpanel/file-management/backups/local/local-example"
                         ]
                       },
                       {
                         "group": "JetBackup Panel (Remote)",
                         "icon": "dragon",
                         "pages": [
-                          "web-hosting/cpanel/file-management/backups/remote/remote-example"
+                          "si/web-hosting/cpanel/file-management/backups/remote/remote-example"
                         ]
                       }
                     ]
@@ -1182,33 +1182,33 @@
                 "group": "Email Management",
                 "icon": "envelopes",
                 "pages": [
-                  "web-hosting/cpanel/email-management/email-management-example",
+                  "si/web-hosting/cpanel/email-management/email-management-example",
                   {
                     "group": "Mail Clients",
                     "icon": "mailbox",
                     "pages": [
-                      "web-hosting/cpanel/email-management/mail-clients/mail-clients-example"
+                      "si/web-hosting/cpanel/email-management/mail-clients/mail-clients-example"
                     ]
                   },
                   {
                     "group": "SpamExperts Filter (Incoming)",
                     "icon": "down",
                     "pages": [
-                      "web-hosting/cpanel/email-management/spamexperts/spamexperts-example"
+                      "si/web-hosting/cpanel/email-management/spamexperts/spamexperts-example"
                     ]
                   },
                   {
                     "group": "MailChannels Filter (Outgoing)",
                     "icon": "up",
                     "pages": [
-                      "web-hosting/cpanel/email-management/mailchannels/mailchannels-example"
+                      "si/web-hosting/cpanel/email-management/mailchannels/mailchannels-example"
                     ]
                   },
                   {
                     "group": "Common Problems",
                     "icon": "triangle-exclamation",
                     "pages": [
-                      "web-hosting/cpanel/email-management/common-problems/common-problems-example"
+                      "si/web-hosting/cpanel/email-management/common-problems/common-problems-example"
                     ]
                   }
                 ]
@@ -1217,26 +1217,26 @@
                 "group": "Database Management",
                 "icon": "database",
                 "pages": [
-                  "web-hosting/cpanel/database-management/database-management-example",
+                  "si/web-hosting/cpanel/database-management/database-management-example",
                   {
                     "group": "MySQL Wizards",
                     "icon": "hat-wizard",
                     "pages": [
-                      "web-hosting/cpanel/database-management/mysql-wizards/mysql-wizards-example"
+                      "si/web-hosting/cpanel/database-management/mysql-wizards/mysql-wizards-example"
                     ]
                   },
                   {
                     "group": "phpMyAdmin",
                     "icon": "user-helmet-safety",
                     "pages": [
-                      "web-hosting/cpanel/database-management/phpmyadmin/phpmyadmin-example"
+                      "si/web-hosting/cpanel/database-management/phpmyadmin/phpmyadmin-example"
                     ]
                   },
                   {
                     "group": "Common Problems",
                     "icon": "triangle-exclamation",
                     "pages": [
-                      "web-hosting/cpanel/database-management/common-problems/common-problems-example"
+                      "si/web-hosting/cpanel/database-management/common-problems/common-problems-example"
                     ]
                   }
                 ]
@@ -1249,14 +1249,14 @@
                     "group": "DNS Management",
                     "icon": "spider-web",
                     "pages": [
-                      "web-hosting/cpanel/domain-management/dns/dns-example"
+                      "si/web-hosting/cpanel/domain-management/dns/dns-example"
                     ]
                   },
                   {
                     "group": "Domains & Subdomains",
                     "icon": "diagram-subtask",
                     "pages": [
-                      "web-hosting/cpanel/domain-management/domains-subdomains/domains-subdomains-example"
+                      "si/web-hosting/cpanel/domain-management/domains-subdomains/domains-subdomains-example"
                     ]
                   }
                 ]
@@ -1269,14 +1269,14 @@
                     "group": "Awstats",
                     "icon": "wave-pulse",
                     "pages": [
-                      "web-hosting/cpanel/metrics-analytics/awstats/awstats-example"
+                      "si/web-hosting/cpanel/metrics-analytics/awstats/awstats-example"
                     ]
                   },
                   {
                     "group": "Webalizer",
                     "icon": "chart-waterfall",
                     "pages": [
-                      "web-hosting/cpanel/metrics-analytics/webalizer/webalizer-example"
+                      "si/web-hosting/cpanel/metrics-analytics/webalizer/webalizer-example"
                     ]
                   },
                   {
@@ -1287,35 +1287,35 @@
                         "group": "Resource Usage",
                         "icon": "gauge-high",
                         "pages": [
-                          "web-hosting/cpanel/metrics-analytics/logs/resource-usage/resource-usage-example"
+                          "si/web-hosting/cpanel/metrics-analytics/logs/resource-usage/resource-usage-example"
                         ]
                       },
                       {
                         "group": "Error Logs",
                         "icon": "square-exclamation",
                         "pages": [
-                          "web-hosting/cpanel/metrics-analytics/logs/errors/errors-example"
+                          "si/web-hosting/cpanel/metrics-analytics/logs/errors/errors-example"
                         ]
                       },
                       {
                         "group": "Visitors",
                         "icon": "family",
                         "pages": [
-                          "web-hosting/cpanel/metrics-analytics/logs/visitors/visitors-example"
+                          "si/web-hosting/cpanel/metrics-analytics/logs/visitors/visitors-example"
                         ]
                       },
                       {
                         "group": "Raw Access",
                         "icon": "align-justify",
                         "pages": [
-                          "web-hosting/cpanel/metrics-analytics/logs/bandwidth/bandwidth-example"
+                          "si/web-hosting/cpanel/metrics-analytics/logs/bandwidth/bandwidth-example"
                         ]
                       },
                       {
                         "group": "Bandwidth",
                         "icon": "router",
                         "pages": [
-                          "web-hosting/cpanel/metrics-analytics/logs/raw-access/raw-access-example"
+                          "si/web-hosting/cpanel/metrics-analytics/logs/raw-access/raw-access-example"
                         ]
                       }
                     ]
@@ -1330,21 +1330,21 @@
                     "group": "SSH Keys",
                     "icon": "key",
                     "pages": [
-                      "web-hosting/cpanel/security-settings/ssh-keys/ssh-keys-example"
+                      "si/web-hosting/cpanel/security-settings/ssh-keys/ssh-keys-example"
                     ]
                   },
                   {
                     "group": "SSL Certificates",
                     "icon": "file-certificate",
                     "pages": [
-                      "web-hosting/cpanel/security-settings/ssl-certificates/ssl-certificates-example"
+                      "si/web-hosting/cpanel/security-settings/ssl-certificates/ssl-certificates-example"
                     ]
                   },
                   {
                     "group": "BitNinja Antivirus",
                     "icon": "user-ninja",
                     "pages": [
-                      "web-hosting/cpanel/security-settings/bitninja/bitninja-example"
+                      "si/web-hosting/cpanel/security-settings/bitninja/bitninja-example"
                     ]
                   }
                 ]
@@ -1357,14 +1357,14 @@
                     "group": "Softaculous",
                     "icon": "browser",
                     "pages": [
-                      "web-hosting/cpanel/software/softaculous/softaculous-example"
+                      "si/web-hosting/cpanel/software/softaculous/softaculous-example"
                     ]
                   },
                   {
                     "group": "Website Builder",
                     "icon": "forklift",
                     "pages": [
-                      "web-hosting/cpanel/software/website-builder/website-builder-example"
+                      "si/web-hosting/cpanel/software/website-builder/website-builder-example"
                     ]
                   }
                 ]
@@ -1377,14 +1377,14 @@
                     "group": "CRON Jobs Manager",
                     "icon": "gear-complex-code",
                     "pages": [
-                      "web-hosting/cpanel/advanced-settings/cron-jobs/cron-jobs-example"
+                      "si/web-hosting/cpanel/advanced-settings/cron-jobs/cron-jobs-example"
                     ]
                   },
                   {
                     "group": "PHP Settings & Management",
                     "icon": "php",
                     "pages": [
-                      "web-hosting/cpanel/advanced-settings/php-settings-management/php-settings-management-example"
+                      "si/web-hosting/cpanel/advanced-settings/php-settings-management/php-settings-management-example"
                     ]
                   }
                 ]
@@ -1403,12 +1403,12 @@
                     "group": "Wordpress",
                     "icon": "wordpress",
                     "pages": [
-                      "web-hosting/application-hosting/cms/wordpress/wordpress-example",
+                      "si/web-hosting/application-hosting/cms/wordpress/wordpress-example",
                       {
                         "group": "WP Toolkit",
                         "icon": "toolbox",
                         "pages": [
-                          "web-hosting/application-hosting/cms/wordpress/wp-toolkit/wp-toolkit-example"
+                          "si/web-hosting/application-hosting/cms/wordpress/wp-toolkit/wp-toolkit-example"
                         ]
                       }
                     ]
@@ -1417,14 +1417,14 @@
                     "group": "Drupal",
                     "icon": "drupal",
                     "pages": [
-                      "web-hosting/application-hosting/cms/drupal/drupal-example"
+                      "si/web-hosting/application-hosting/cms/drupal/drupal-example"
                     ]
                   },
                   {
                     "group": "Joomla",
                     "icon": "joomla",
                     "pages": [
-                      "web-hosting/application-hosting/cms/joomla/joomla-example"
+                      "si/web-hosting/application-hosting/cms/joomla/joomla-example"
                     ]
                   }
                 ]
@@ -1437,28 +1437,28 @@
                     "group": "Magento",
                     "icon": "magento",
                     "pages": [
-                      "web-hosting/application-hosting/ecommerce/magento/magento-example"
+                      "si/web-hosting/application-hosting/ecommerce/magento/magento-example"
                     ]
                   },
                   {
                     "group": "PrestaShop",
                     "icon": "kiwi-bird",
                     "pages": [
-                      "web-hosting/application-hosting/ecommerce/prestashop/prestashop-example"
+                      "si/web-hosting/application-hosting/ecommerce/prestashop/prestashop-example"
                     ]
                   },
                   {
                     "group": "OpenCart",
                     "icon": "cart-shopping",
                     "pages": [
-                      "web-hosting/application-hosting/ecommerce/opencart/opencart-example"
+                      "si/web-hosting/application-hosting/ecommerce/opencart/opencart-example"
                     ]
                   },
                   {
                     "group": "WooCommerce",
                     "icon": "comments-dollar",
                     "pages": [
-                      "web-hosting/application-hosting/ecommerce/woocommerce/woocommerce-example"
+                      "si/web-hosting/application-hosting/ecommerce/woocommerce/woocommerce-example"
                     ]
                   }
                 ]
@@ -1471,14 +1471,14 @@
                     "group": "WHMCS",
                     "icon": "whmcs",
                     "pages": [
-                      "web-hosting/application-hosting/billing-systems/whmcs/whmcs-example"
+                      "si/web-hosting/application-hosting/billing-systems/whmcs/whmcs-example"
                     ]
                   },
                   {
                     "group": "Blesta",
                     "icon": "message-smile",
                     "pages": [
-                      "web-hosting/application-hosting/billing-systems/blesta/blesta-example"
+                      "si/web-hosting/application-hosting/billing-systems/blesta/blesta-example"
                     ]
                   }
                 ]
@@ -1488,26 +1488,26 @@
           {
             "group": "Virtual Containers",
             "pages": [
-              "web-hosting/virtual-containers/virtual-containers-example",
+              "si/web-hosting/virtual-containers/virtual-containers-example",
               {
                 "group": "NodeJS",
                 "icon": "node",
                 "pages": [
-                  "web-hosting/virtual-containers/nodejs/nodejs-example"
+                  "si/web-hosting/virtual-containers/nodejs/nodejs-example"
                 ]
               },
               {
                 "group": "Python",
                 "icon": "python",
                 "pages": [
-                  "web-hosting/virtual-containers/python/python-example"
+                  "si/web-hosting/virtual-containers/python/python-example"
                 ]
               },
               {
                 "group": "Ruby",
                 "icon": "gem",
                 "pages": [
-                  "web-hosting/virtual-containers/ruby/ruby-example"
+                  "si/web-hosting/virtual-containers/ruby/ruby-example"
                 ]
               }
             ]
@@ -1516,19 +1516,19 @@
             "group": "Migrations",
             "icon": "trucks",
             "pages": [
-              "web-hosting/migrations/migrations-example",
+              "si/web-hosting/migrations/migrations-example",
               {
                 "group": "Migrating to Noxity",
                 "icon": "truck-arrow-right",
                 "pages": [
-                  "web-hosting/migrations/inbound/inbound-example"
+                  "si/web-hosting/migrations/inbound/inbound-example"
                 ]
               },
               {
                 "group": "Internal Migrations",
                 "icon": "truck-bolt",
                 "pages": [
-                  "web-hosting/migrations/internal/internal-example"
+                  "si/web-hosting/migrations/internal/internal-example"
                 ]
               }
             ]
@@ -1540,21 +1540,21 @@
                 "group": "Features",
                 "icon": "flask-gear",
                 "pages": [
-                  "web-hosting/other/features/features-example"
+                  "si/web-hosting/other/features/features-example"
                 ]
               },
               {
                 "group": "FAQ",
                 "icon": "block-question",
                 "pages": [
-                  "web-hosting/other/faq/faq-example"
+                  "si/web-hosting/other/faq/faq-example"
                 ]
               },
               {
                 "group": "Troubleshooting",
                 "icon": "toolbox",
                 "pages": [
-                  "web-hosting/other/troubleshooting/troubleshooting-example"
+                  "si/web-hosting/other/troubleshooting/troubleshooting-example"
                 ]
               }
             ]
@@ -1567,7 +1567,7 @@
           {
             "group": "Domains",
             "pages": [
-              "domains/domains-example"
+              "si/domains/domains-example"
             ]
           },
           {
@@ -1578,14 +1578,14 @@
                 "group": "TLDs",
                 "icon": "lines-leaning",
                 "pages": [
-                  "domains/registrations/tlds/tlds-example"
+                  "si/domains/registrations/tlds/tlds-example"
                 ]
               },
               {
                 "group": "Contact Details",
                 "icon": "address-book",
                 "pages": [
-                  "domains/registrations/contact-details/contact-details-example"
+                  "si/domains/registrations/contact-details/contact-details-example"
                 ]
               }
             ]
@@ -1598,14 +1598,14 @@
                 "group": "Inbound",
                 "icon": "truck-bolt",
                 "pages": [
-                  "domains/transfers/inbound/inbound-example"
+                  "si/domains/transfers/inbound/inbound-example"
                 ]
               },
               {
                 "group": "Outbound",
                 "icon": "truck-arrow-right",
                 "pages": [
-                  "domains/transfers/outbound/outbound-example"
+                  "si/domains/transfers/outbound/outbound-example"
                 ]
               }
             ]
@@ -1614,19 +1614,19 @@
             "group": "Renewals",
             "icon": "arrows-rotate",
             "pages": [
-              "domains/renewals/renewals-example"
+              "si/domains/renewals/renewals-example"
             ]
           },
           {
             "group": "Domain Management",
             "icon": "list-check",
             "pages": [
-              "domains/management/management-example",
+              "si/domains/management/management-example",
               {
                 "group": "Domain Panel",
                 "icon": "bars-progress",
                 "pages": [
-                  "domains/management/panel/panel-example"
+                  "si/domains/management/panel/panel-example"
                 ]
               },
               {
@@ -1637,14 +1637,14 @@
                     "group": "In house",
                     "icon": "house",
                     "pages": [
-                      "domains/management/ns/inhouse/inhouse-example"
+                      "si/domains/management/ns/inhouse/inhouse-example"
                     ]
                   },
                   {
                     "group": "External",
                     "icon": "bench-tree",
                     "pages": [
-                      "domains/management/ns/external/external-example"
+                      "si/domains/management/ns/external/external-example"
                     ]
                   }
                 ]
@@ -1658,14 +1658,14 @@
                 "group": "Free DNS",
                 "icon": "input-text",
                 "pages": [
-                  "domains/freebies/dns/dns-example"
+                  "si/domains/freebies/dns/dns-example"
                 ]
               },
               {
                 "group": "Free Email Inbox Hosting",
                 "icon": "envelopes-bulk",
                 "pages": [
-                  "domains/freebies/inbox/inbox-example"
+                  "si/domains/freebies/inbox/inbox-example"
                 ]
               }
             ]
@@ -1677,21 +1677,21 @@
                 "group": "Features",
                 "icon": "flask-gear",
                 "pages": [
-                  "domains/other/features/features-example"
+                  "si/domains/other/features/features-example"
                 ]
               },
               {
                 "group": "FAQ",
                 "icon": "block-question",
                 "pages": [
-                  "domains/other/faq/faq-example"
+                  "si/domains/other/faq/faq-example"
                 ]
               },
               {
                 "group": "Troubleshooting",
                 "icon": "toolbox",
                 "pages": [
-                  "domains/other/troubleshooting/troubleshooting-example"
+                  "si/domains/other/troubleshooting/troubleshooting-example"
                 ]
               }
             ]
@@ -1704,33 +1704,33 @@
           {
             "group": "Members Area",
             "pages": [
-              "members/members"
+              "si/members/members"
             ]
           },
           {
             "group": "Abuse",
             "icon": "bacterium",
             "pages": [
-              "members/abuse/abuse-example",
+              "si/members/abuse/abuse-example",
               {
                 "group": "Resource Abuse",
                 "icon": "gauge-max",
                 "pages": [
-                  "members/abuse/resource/resource-example"
+                  "si/members/abuse/resource/resource-example"
                 ]
               },
               {
                 "group": "Spam",
                 "icon": "person-harassing",
                 "pages": [
-                  "members/abuse/spam/spam-example"
+                  "si/members/abuse/spam/spam-example"
                 ]
               },
               {
                 "group": "Copyright",
                 "icon": "file-certificate",
                 "pages": [
-                  "members/abuse/copyright/copyright-example"
+                  "si/members/abuse/copyright/copyright-example"
                 ]
               }
             ]
@@ -1742,21 +1742,21 @@
                 "group": "Cashback",
                 "icon": "money-from-bracket",
                 "pages": [
-                  "members/billing/cashback/cashback-example"
+                  "si/members/billing/cashback/cashback-example"
                 ]
               },
               {
                 "group": "Invoices",
                 "icon": "file-invoice",
                 "pages": [
-                  "members/billing/invoices/invoices-example"
+                  "si/members/billing/invoices/invoices-example"
                 ]
               },
               {
                 "group": "Ordering",
                 "icon": "cart-shopping",
                 "pages": [
-                  "members/billing/ordering/ordering-example"
+                  "si/members/billing/ordering/ordering-example"
                 ]
               },
               {
@@ -1767,21 +1767,21 @@
                     "group": "Stripe",
                     "icon": "cc-stripe",
                     "pages": [
-                      "members/billing/payment-methods/stripe/stripe-example"
+                      "si/members/billing/payment-methods/stripe/stripe-example"
                     ]
                   },
                   {
                     "group": "PayPal",
                     "icon": "cc-paypal",
                     "pages": [
-                      "members/billing/payment-methods/paypal/paypal-example"
+                      "si/members/billing/payment-methods/paypal/paypal-example"
                     ]
                   },
                   {
                     "group": "Crypto",
                     "icon": "bitcoin",
                     "pages": [
-                      "members/billing/payment-methods/coinbase/coinbase-example"
+                      "si/members/billing/payment-methods/coinbase/coinbase-example"
                     ]
                   }
                 ]
@@ -1791,26 +1791,26 @@
           {
             "group": "Partners",
             "pages": [
-              "members/partners/partners-example",
+              "si/members/partners/partners-example",
               {
                 "group": "Amabassadors",
                 "icon": "building-flag",
                 "pages": [
-                  "members/partners/ambassadors/ambassadors-example"
+                  "si/members/partners/ambassadors/ambassadors-example"
                 ]
               },
               {
                 "group": "Partnerships",
                 "icon": "handshake",
                 "pages": [
-                  "members/partners/partnerships/partnerships-example"
+                  "si/members/partners/partnerships/partnerships-example"
                 ]
               },
               {
                 "group": "Affiliates",
                 "icon": "rectangle-ad",
                 "pages": [
-                  "members/partners/affiliates/affiliates-example"
+                  "si/members/partners/affiliates/affiliates-example"
                 ]
               }
             ]
@@ -1819,14 +1819,14 @@
             "group": "Presales",
             "icon": "messages-dollar",
             "pages": [
-              "members/presales/presales-example"
+              "si/members/presales/presales-example"
             ]
           },
           {
             "group": "Refunds",
             "icon": "money-check-dollar-pen",
             "pages": [
-              "members/refunds/refunds-example"
+              "si/members/refunds/refunds-example"
             ]
           },
           {
@@ -1837,14 +1837,14 @@
                 "group": "Tickets",
                 "icon": "mailbox-flag-up",
                 "pages": [
-                  "members/support/tickets/tickets-example"
+                  "si/members/support/tickets/tickets-example"
                 ]
               },
               {
                 "group": "Live Chat",
                 "icon": "comments",
                 "pages": [
-                  "members/support/livechat/livechat-example"
+                  "si/members/support/livechat/livechat-example"
                 ]
               }
             ]
@@ -1856,14 +1856,14 @@
                 "group": "FAQ",
                 "icon": "block-question",
                 "pages": [
-                  "members/other/faq/faq-example"
+                  "si/members/other/faq/faq-example"
                 ]
               },
               {
                 "group": "Troubleshooting",
                 "icon": "toolbox",
                 "pages": [
-                  "members/other/troubleshooting/troubleshooting-example"
+                  "si/members/other/troubleshooting/troubleshooting-example"
                 ]
               }
             ]
@@ -1885,7 +1885,7 @@
                     "group": "Debian",
                     "icon": "linux",
                     "pages": [
-                      "how-to/operating-systems/debian/debian-example"
+                      "si/how-to/operating-systems/debian/debian-example"
                     ]
                   },
                   {
@@ -1896,21 +1896,21 @@
                         "group": "AlmaLinux",
                         "icon": "clover",
                         "pages": [
-                          "how-to/operating-systems/rhel/alma/alma-example"
+                          "si/how-to/operating-systems/rhel/alma/alma-example"
                         ]
                       },
                       {
                         "group": "Rocky Linux",
                         "icon": "mountain",
                         "pages": [
-                          "how-to/operating-systems/rhel/rocky/rocky-example"
+                          "si/how-to/operating-systems/rhel/rocky/rocky-example"
                         ]
                       },
                       {
                         "group": "CentOS",
                         "icon": "centos",
                         "pages": [
-                          "how-to/operating-systems/rhel/centos/centos-example"
+                          "si/how-to/operating-systems/rhel/centos/centos-example"
                         ]
                       }
                     ]
@@ -1919,14 +1919,14 @@
                     "group": "Ubuntu",
                     "icon": "ubuntu",
                     "pages": [
-                      "how-to/operating-systems/ubuntu/ubuntu-example"
+                      "si/how-to/operating-systems/ubuntu/ubuntu-example"
                     ]
                   },
                   {
                     "group": "Windows",
                     "icon": "windows",
                     "pages": [
-                      "how-to/operating-systems/windows/windows-example"
+                      "si/how-to/operating-systems/windows/windows-example"
                     ]
                   }
                 ]
@@ -1939,21 +1939,21 @@
                     "group": "Best Practices",
                     "icon": "thumbs-up",
                     "pages": [
-                      "how-to/reference-guides/best-practices/best-practices-example"
+                      "si/how-to/reference-guides/best-practices/best-practices-example"
                     ]
                   },
                   {
                     "group": "General guides",
                     "icon": "space-station-moon-construction",
                     "pages": [
-                      "how-to/reference-guides/general/general-example"
+                      "si/how-to/reference-guides/general/general-example"
                     ]
                   },
                   {
                     "group": "Troubleshooting",
                     "icon": "toolbox",
                     "pages": [
-                      "how-to/reference-guides/troubleshooting/troubleshooting-example"
+                      "si/how-to/reference-guides/troubleshooting/troubleshooting-example"
                     ]
                   }
                 ]
@@ -1968,7 +1968,7 @@
           {
             "group": "Developer Corner",
             "pages": [
-              "developers/developers"
+              "si/developers/developers"
             ]
           },
           {
@@ -1977,7 +1977,7 @@
               {
                 "group": "2023",
                 "pages": [
-                  "developers/release-notes/2023/2023-example"
+                  "si/developers/release-notes/2023/2023-example"
                 ]
               }
             ]
