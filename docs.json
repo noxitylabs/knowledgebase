@@ -1876,7 +1876,7 @@
           {
             "group": "How To Guides",
             "pages": [
-              "how-to/how-to-example",
+              "si/how-to/how-to-example",
               {
                 "group": "Operating Systems",
                 "icon": "planet-ringed",
