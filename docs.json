@@ -9,6 +9,9 @@
   },
   "favicon": "/logo/favicon.png",
   "navigation": {
+    "dropdowns": [
+    {
+    "dropdown": "English",
     "tabs": [
       {
         "tab": "Home",
@@ -993,69 +996,47 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Website",
-          "href": "https://noxity.io",
-          "icon": "browser"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://discord.noxity.io",
-          "icon": "discord"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://blog.noxity.io",
-          "icon": "typewriter"
-        },
-        {
-          "anchor": "Status Page",
-          "href": "https://status.noxity.io",
-          "icon": "signal-bars"
-        },
-        {
-          "anchor": "Linktree",
-          "href": "https://tree.noxity.io",
-          "icon": "bullseye-pointer"
-        },
-        {
-          "anchor": "Contact Us",
-          "href": "https://noxity.io/support",
-          "icon": "paper-plane"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/dark.png",
-    "dark": "/logo/light.png"
-  },
-  "appearance": {
-    "default": "dark",
-    "strict": true
-  },
-  "background": {
-    "color": {
-      "dark": "#090014"
-    }
-  },
-  "navbar": {
-    "primary": {
-      "type": "github",
-      "href": "https://github.com/noxitylabs/knowledgebase"
-    }
-  },
-  "footer": {
-    "socials": {
-      "website": "https://noxity.io",
-      "twitter": "https://twitter.com/noxityio",
-      "youtube": "https://www.youtube.com/@noxityio",
-      "github": "https://github.com/noxitylabs/",
-      "instagram": "https://www.instagram.com/noxityio/",
-      "linkedin": "https://www.linkedin.com/company/noxity"
-    }
+    ]
   }
+],                    
+"global": {
+  "anchors": [
+    { "anchor": "Website",        "href": "https://noxity.io",        "icon": "browser" },
+    { "anchor": "Community",      "href": "https://discord.noxity.io", "icon": "discord" },
+    { "anchor": "Blog",           "href": "https://blog.noxity.io",    "icon": "typewriter" },
+    { "anchor": "Status Page",    "href": "https://status.noxity.io",  "icon": "signal-bars" },
+    { "anchor": "Linktree",       "href": "https://tree.noxity.io",    "icon": "bullseye-pointer" },
+    { "anchor": "Contact Us",     "href": "https://noxity.io/support", "icon": "paper-plane" }
+  ]
+}
+},
+"logo": {
+"light": "/logo/dark.png",
+"dark": "/logo/light.png"
+},
+"appearance": {
+"default": "dark",
+"strict": true
+},
+"background": {
+"color": {
+  "dark": "#090014"
+}
+},
+"navbar": {
+"primary": {
+  "type": "github",
+  "href": "https://github.com/noxitylabs/knowledgebase"
+}
+},
+"footer": {
+"socials": {
+  "website":   "https://noxity.io",
+  "twitter":   "https://twitter.com/noxityio",
+  "youtube":   "https://www.youtube.com/@noxityio",
+  "github":    "https://github.com/noxitylabs/",
+  "instagram": "https://www.instagram.com/noxityio/",
+  "linkedin":  "https://www.linkedin.com/company/noxity"
+}
+}
 }
