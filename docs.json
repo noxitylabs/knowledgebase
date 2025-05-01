@@ -13,14 +13,6 @@
     {
     "dropdown": "English",
     "icon": "flag-usa",
-    "anchors": [
-      { "anchor": "Website",        "href": "https://noxity.io",        "icon": "browser" },
-      { "anchor": "Community",      "href": "https://discord.noxity.io", "icon": "discord" },
-      { "anchor": "Blog",           "href": "https://blog.noxity.io",    "icon": "typewriter" },
-      { "anchor": "Status Page",    "href": "https://status.noxity.io",  "icon": "signal-bars" },
-      { "anchor": "Linktree",       "href": "https://tree.noxity.io",    "icon": "bullseye-pointer" },
-      { "anchor": "Contact Us",     "href": "https://noxity.io/support", "icon": "paper-plane" }
-    ],
     "tabs": [
       {
         "tab": "Home",
@@ -1010,14 +1002,6 @@
           {
     "dropdown": "Slovenian",
     "icon": "bee",
-    "anchors": [
-      { "anchor": "Website",        "href": "https://noxity.io",        "icon": "browser" },
-      { "anchor": "Community",      "href": "https://discord.noxity.io", "icon": "discord" },
-      { "anchor": "Blog",           "href": "https://blog.noxity.io",    "icon": "typewriter" },
-      { "anchor": "Status Page",    "href": "https://status.noxity.io",  "icon": "signal-bars" },
-      { "anchor": "Linktree",       "href": "https://tree.noxity.io",    "icon": "bullseye-pointer" },
-      { "anchor": "Contact Us",     "href": "https://noxity.io/support", "icon": "paper-plane" }
-    ],
     "tabs": [
       {
         "tab": "Home",
@@ -2007,7 +1991,13 @@
       
 ],                    
 "global": {
-
+"anchors": [
+      { "anchor": "Website",        "href": "https://noxity.io",        "icon": "browser" },
+      { "anchor": "Discord",      "href": "https://discord.noxity.io", "icon": "discord" },
+      { "anchor": "Blog",           "href": "https://blog.noxity.io",    "icon": "typewriter" },
+      { "anchor": "Status",    "href": "https://status.noxity.io",  "icon": "signal-bars" },
+      { "anchor": "Linktree",       "href": "https://tree.noxity.io",    "icon": "bullseye-pointer" }
+    ]
 }
 },
 "logo": {
