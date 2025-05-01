@@ -9,9 +9,9 @@
   },
   "favicon": "/logo/favicon.png",
   "navigation": {
-    "dropdowns": [
+    "languages": [
     {
-    "dropdown": "English",
+    "languages": "en",
     "anchors": [
       { "anchor": "Website",        "href": "https://noxity.io",        "icon": "browser" },
       { "anchor": "Community",      "href": "https://discord.noxity.io", "icon": "discord" },
@@ -1007,7 +1007,7 @@
     ]
   },
           {
-    "dropdown": "Slovenian",
+    "language": "Slovenian",
     "anchors": [
       { "anchor": "Website",        "href": "https://noxity.io",        "icon": "browser" },
       { "anchor": "Community",      "href": "https://discord.noxity.io", "icon": "discord" },
