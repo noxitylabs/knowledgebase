@@ -12,7 +12,7 @@
     "dropdowns": [
     {
     "dropdown": "English",
-    "icon": "fa-earth-americas",
+    "icon": "earth-americas",
     "tabs": [
       {
         "tab": "Home",
