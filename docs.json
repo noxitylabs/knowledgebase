@@ -12,27 +12,24 @@
     "dropdowns": [
     {
     "dropdown": "English",
-    "icon": "flag-usa",
+    "icon": "fa-earth-americas",
     "tabs": [
       {
         "tab": "Home",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Getting started",
             "pages": [
-              "introduction",
-              "contributing",
+              "welcome",
               "team"
             ]
           },
           {
             "group": "Essentials",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation"
+              "home/essentials/check-your-inbox",
+              "home/essentials/stay-up-to-date",
+              "home/essentials/support"
             ]
           }
         ]
@@ -999,7 +996,6 @@
       }
     ]
   }
-      
 ],                    
 "global": {
 "anchors": [
